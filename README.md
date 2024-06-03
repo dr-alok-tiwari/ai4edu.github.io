@@ -5,43 +5,43 @@ Hi! I'm your [**Dr. Alok Tiwari**](https://www.linkedin.com/in/dr-alok-tiwari/),
 
 **About Me - [Dr.Alok Tiwari](https://dr-alok-tiwari.github.io/)**
 
-🌟 Data Science & AI Professional 
-🔬 Experience: 7+ years | 💼 Research, Teaching, Industry🌟
+🌟 Data Science & AI Professional <br />
+🔬 Experience: 7+ years | 💼 Research, Teaching, Industry🌟 <br />
 
-🚀 Expertise:   
-🎓 Ph.D. in Biomedical Engineering (AI in Healthcare) 🏥 | IIT-BHU
-🤖 Machine Learning  | 🧠 Deep Learning | 📸 Computer Vision | 📊 Data Science 
+🚀 Expertise:   <br />
+🎓 Ph.D. in Biomedical Engineering (AI in Healthcare) 🏥 | IIT-BHU <br />
+🤖 Machine Learning  | 🧠 Deep Learning | 📸 Computer Vision | 📊 Data Science <br />
 
-💡 Passionate about:  
+💡 Passionate about:  <br />
 
-Positive Impact in the Healthcare system across the 🌍 
+Positive Impact in the Healthcare system across the 🌍 <br />
 
-🏆 Recent Achievements🏆
+🏆 Recent Achievements🏆 <br />
 
-📊 COVID-19 X-ray Classification Model
-💡 Weakly Supervised MRI Segmentation
-📚 Published in Top Journals & Conferences
-🎖️ NVIDIA DLI Certified
-🏅 "Medhavi Kshatra Puruskar" Awardee
+📊 COVID-19 X-ray Classification Model <br />
+💡 Weakly Supervised MRI Segmentation <br />
+📚 Published in Top Journals & Conferences <br />
+🎖️ NVIDIA DLI Certified <br />
+🏅 "Medhavi Kshatra Puruskar" Awardee <br />
 
-🛠️ Skills 🛠️
+🛠️ Skills 🛠️ <br />
 
-💻 Programming: Python, R, C/C++, MATLAB, Latex, SQL, HQL, NoSQL
-📊 Data Science: NumPy, Pandas, Scikit-learn, Matplotlib, Plotly
-📊 Data Engineering : Big data, Hadoop, Spark, SparkML, SparkStreaming, Hive, GitHub, DevOps Tools
-🧠 Machine Learning: Regression, Classification, Clustering, Support Vector Machine, Neural Network
-🌌 Deep Learning: CNN, RNN, GAN, UNET, VGG-Net, Inception-Net, Keras, Tensorflow, PyTorch
-👁️‍🗨️ Computer Vision: Object Detection , Medical Image Segmentation
-🔤 NLP: Text Classify, Summarize, QA, Large Language Models
+💻 Programming: Python, R, C/C++, MATLAB, Latex, SQL, HQL, NoSQL <br />
+📊 Data Science: NumPy, Pandas, Scikit-learn, Matplotlib, Plotly <br />
+📊 Data Engineering : Big data, Hadoop, Spark, SparkML, SparkStreaming, Hive, GitHub, DevOps Tools <br />
+🧠 Machine Learning: Regression, Classification, Clustering, Support Vector Machine, Neural Network <br />
+🌌 Deep Learning: CNN, RNN, GAN, UNET, VGG-Net, Inception-Net, Keras, Tensorflow, PyTorch <br />
+👁️‍🗨️ Computer Vision: Object Detection , Medical Image Segmentation <br />
+🔤 NLP: Text Classify, Summarize, QA, Large Language Models <br />
 
-📅 Experience 📅
+📅 Experience 📅 <br />
 
-🏢 Assistant Prof., uGDX School of Technology, ATLAS SkillTech University, Mumbai
-🏫 Guest Faculty, Big Data & CV at NMIMS Mumbai
-🎓 DevOps Instructor, Product deployment Bootcamp at NMIMS Mumbai
-👨‍🎓 Ph.D., IIT-BHU | M.Tech., NIT Kurukshetra | B.Tech., IET Sitapur |
+🏢 Assistant Prof., uGDX School of Technology, ATLAS SkillTech University, Mumbai <br />
+🏫 Guest Faculty, Big Data & CV at NMIMS Mumbai <br />
+🎓 DevOps Instructor, Product deployment Bootcamp at NMIMS Mumbai <br />
+👨‍🎓 Ph.D., IIT-BHU | M.Tech., NIT Kurukshetra | B.Tech., IET Sitapur | <br />
 
-**Ready to unlock the power of AI for a healthier future? Let's connect!**
+**Ready to unlock the power of AI for a healthier future? Let's connect!** <br />
 
 **Linkedin: [Dr. Alok Tiwari](https://www.linkedin.com/in/dr-alok-tiwari/)**
 
