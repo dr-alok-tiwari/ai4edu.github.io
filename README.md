@@ -53,146 +53,24 @@ Hi! I'm your [**Dr. Alok Tiwari**]((https://dr-alok-tiwari.github.io/), Assistan
 ## 1. Prerequisites :
 
 ### A. Maths :
-#### [Math for programmers](https://akuli.github.io/math-tutorial/)
-#### [Essence of Linear Algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
-####  [Math is Fun](https://www.mathsisfun.com/algebra/scalar-vector-matrix.html)
-####  [Calculus](https://the-learning-machine.com/article/machine-learning/calculus)
-####  [Linear Algebra - Part 1](https://the-learning-machine.com/article/machine-learning/linear-algebra)
-####  [Linear Algebra - Part 2](https://en.wikibooks.org/wiki/Linear_Algebra)
+##### [Math for programmers](https://akuli.github.io/math-tutorial/), [Essence of Linear Algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab), [Math is Fun](https://www.mathsisfun.com/algebra/scalar-vector-matrix.html), [Calculus](https://the-learning-machine.com/article/machine-learning/calculus), [Linear Algebra - Part 1](https://the-learning-machine.com/article/machine-learning/linear-algebra), [Linear Algebra - Part 2](https://en.wikibooks.org/wiki/Linear_Algebra)
 
 ### B. Stats & Probability :
-#### [Statistics Part 1](https://www.youtube.com/watch?v=qBigTkBLU6g&list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9)
-#### [Statistics Part 2](https://www.youtube.com/playlist?list=PL1328115D3D8A2566)
-#### [Statistics Part 3](https://www.mygreatlearning.com/academy/courses/693367/11266#?utm_source=share_with_friends)
-#### [Prob and Stats](https://probabilitycourse.com/)
-#### [Concepts and applications of inferential stats](http://vassarstats.net/textbook/index.html)
+##### [Statistics Part 1](https://www.youtube.com/watch?v=qBigTkBLU6g&list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9), [Statistics Part 2](https://www.youtube.com/playlist?list=PL1328115D3D8A2566), [Statistics Part 3](https://www.mygreatlearning.com/academy/courses/693367/11266#?utm_source=share_with_friends), [Prob and Stats](https://probabilitycourse.com/), [Concepts and applications of inferential stats](http://vassarstats.net/textbook/index.html)
 
 
 ### C. Python :
-#### [Python](https://www.python.org/): The primary language for data science, offering extensive libraries and frameworks.
-#### [Pandas](https://pandas.pydata.org/): Data manipulation and analysis library.
-#### [NumPy](https://numpy.org/): Numerical computing library for scientific computing.
-#### [Matplotlib](https://matplotlib.org/): Popular library for data visualization.
-#### [Seaborn](https://seaborn.pydata.org/): Statistical data visualization built on top of Matplotlib.
-#### [Scikit-learn](https://scikit-learn.org/): Machine learning library for various algorithms.
-#### [TensorFlow](https://www.tensorflow.org/): Open-source library for numerical computation and large-scale machine learning.
-#### [Keras](https://keras.io/): High-level neural network API, often used with TensorFlow.
-#### [PyTorch](https://pytorch.org/): Another popular deep learning framework.
-#### [Jupyter Notebook](https://jupyter.org/): Interactive environment for code, visualizations, and explanations.
+##### [Python](https://www.python.org/), [Pandas](https://pandas.pydata.org/), [NumPy](https://numpy.org/), [Matplotlib](https://matplotlib.org/), [Seaborn](https://seaborn.pydata.org/), [Scikit-learn](https://scikit-learn.org/)., [TensorFlow](https://www.tensorflow.org/), [Keras](https://keras.io/), [PyTorch](https://pytorch.org/), [Jupyter Notebook](https://jupyter.org/)
 
 
 
 ### D. R :
-#### [R-Official](https://www.r-project.org/):Popular language with strong statistical capabilities.
-#### [Swirl](https://github.com/swirldev/swirl_courses#swirl-courses)
-#### [Learnr](https://rstudio.github.io/learnr/)
-#### [R-for beginners](https://github.com/suneelpatel/R-for-Beginners)
+##### [R-Official](https://www.r-project.org/),[Swirl](https://github.com/swirldev/swirl_courses#swirl-courses), [Learnr](https://rstudio.github.io/learnr/), [R-for beginners](https://github.com/suneelpatel/R-for-Beginners)
 
 
 
 ### E. SQL :
-#### [W3Schools](https://www.w3schools.com/sql/)
-#### [SQL-Bolt](https://sqlbolt.com/)
-#### [SQL-Zoo](https://sqlzoo.net/wiki/SQL_Tutorial)
-
-
-### F. Cheatsheets:
-
-#### a. Pre-requisites
-##### [codecademy cheat sheet](https://www.codecademy.com/resources/cheatsheets/all)
-##### [Big-O-cheat sheet](https://bigocheatsheet.io/?dark-mode=true)
-##### [Algo and DS](https://cooervo.github.io/Algorithms-DataStructures-BigONotation/)
-##### [Web scraping](https://blog.hartleybrody.com/web-scraping-cheat-sheet/)
-##### [Data Visualization with Tableau](https://www.datacamp.com/tutorial/data-visualisation-tableau)
-##### [Paul's online notes](https://tutorial.math.lamar.edu/Extras/CheatSheets_Tables.aspx#CalcSheet)
-##### [Jupyter Notebook](https://lnkd.in/g7cPmgHQ) 
-##### [Data Wrangling](https://bit.ly/3TiMibP)
-##### [Data Visualization](https://lnkd.in/gQ52Jd_J) 
-##### [Statistical Inference](https://lnkd.in/grNXVQh5) 
-##### [Probability ](https://lnkd.in/gvnWCphc)
-##### [Linear Algebra](https://lnkd.in/gty6XpVF) 
-##### [Calculus](https://lnkd.in/gjhsmsxu ) 
-##### [Big-O Notation](https://lnkd.in/gfYqM8WU) 
-##### [Regular Expression](https://lnkd.in/gE9kZTZW) 
-
-
-#### b. Python 
-##### [Python cheatsheets](https://www.pythoncheatsheet.org/cheatsheet/basics)
-##### [Seaborn Charts](https://www.kaggle.com/code/themlphdstudent/cheat-sheet-seaborn-charts/notebook)
-##### [Pandas](https://lnkd.in/g4yTJ7CP)
-##### [NumPy](https://lnkd.in/gg9Uw-km)
-##### [MatPlotlib](https://lnkd.in/gahrGicD)
-##### [Seaborn](https://lnkd.in/gcu4UKpw)
-##### [Scikit-Learn](https://lnkd.in/gGfkNu5i)
-##### [Tensorflow](https://lnkd.in/g3fw3uRV)
-##### [Keras](https://lnkd.in/gfPTfbgg)
-##### [PyTorch](https://bit.ly/3lnsiIz)
-##### [Scientific Python Cheatsheet](https://ipgp.github.io/scientific_python_cheat_sheet/?utm_content=buffer7d821&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer#numpy-import-numpy-as-np)
-##### [Python String Formatting](https://lnkd.in/gHi26Uk2)
-##### [Flask](https://lnkd.in/gGzbSTgU)
-##### [Django](https://lnkd.in/grZcWz8y)
-##### [PyTorch Lightning](https://lnkd.in/gNnq5QXz) : 
-##### [TensorFlow Probability Cheat Sheet](https://lnkd.in/gr3bgDGP)
-
-
-#### c. SQL
-##### [SQL-Cheatsheet](https://www.sqltutorial.org/sql-cheat-sheet/)
-##### [SQL](https://lnkd.in/gyierV3f)
-##### [PostgreSQL](https://lnkd.in/gzfiW7zB) : 
-##### [MySQL](https://lnkd.in/g4JnPVTe)
-
-#### d. R
-##### [R](https://lnkd.in/gEgJ6A8j)
-
-
-#### e. Shell scripting
-##### [Unix/Linux Permissions ](https://bit.ly/3ZUfwA8)
-##### [Linux Commands](https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/)
-##### [Github](https://intellipaat.com/blog/tutorial/devops-tutorial/git-cheat-sheet/)
-##### [Git](https://lnkd.in/gyzhztvH)
-##### [Linux Command Line](https://bit.ly/3FtcTgw) 
-
-#### f. AI, ML, DL, NLP
-##### [Time Series](https://bit.ly/3Fvuep4) 
-##### [NLP](https://bit.ly/3Fvursm)
-##### [Neural Network ](https://lnkd.in/gThs2AAp)
-##### [Deep Learning](https://lnkd.in/gVbSPae2) 
-##### [Machine Learning](https://bit.ly/3mZ5Wh3) 
-##### [OpenAI GPT-3 Documentation](https://lnkd.in/gawB_SC9) 
-##### [GPT-3 API Reference](https://lnkd.in/gtCGZvX8)
-##### [GPT-3 GitHub Repository ](https://lnkd.in/g56cQQPD)
-##### [How to use GPT-3 in Python](https://lnkd.in/gSx354PM) 
-##### [Getting started with GPT-3](https://lnkd.in/g999qJmH)
-
-
-
-
-#### g. Big Data and Cloud
-##### [AWS](https://bit.ly/3ZQWMS1) 
-##### [Azure ](https://bit.ly/42f4N4V)
-##### [Google Cloud Platform ](https://bit.ly/3JJADzv)
-##### [Docker](https://bit.ly/3Lt2zJe) 
-##### [Kubernetes](https://lnkd.in/gjXCT7Mb) 
-##### [Apache Spark](https://lnkd.in/ge7Rj-Yr) 
-##### [Hadoop](https://bit.ly/3Lq34DR) 
-##### [AWS S3](https://bit.ly/3JMYe2A) 
-##### [AWS Lambda](https://bit.ly/3Jq2QtI) 
-##### [AWS EC2](https://bit.ly/3JpyuYz) 
-##### [AWS CloudFormation](https://bit.ly/3JHE3D1) 
-##### [AWS IAM](https://bit.ly/3mYW6f5) 
-##### [AWS API Gateway](https://bit.ly/3LvmW8K) 
-##### [AWS Route 53](https://lnkd.in/gJWK9KqR)  
-##### [AWS EKS](https://lnkd.in/gUZYvdvB) 
-##### [AWS ECS](https://lnkd.in/geu_Hmu3)  
-##### [AWS RDS](https://lnkd.in/g-i6kMWB) 
-##### [AWS Redshift](https://lnkd.in/gH_fEdU8) 
-##### [AWS DynamoDB](https://lnkd.in/ghvfM889)  
-##### [MongoDB](https://lnkd.in/gHc4F4ER)  
-##### [PySpark RDD ](https://lnkd.in/gTHUYckq) 
-##### [PySpark MLlib](https://lnkd.in/ggSy4AqJ) 
-##### [PySpark GraphX](https://lnkd.in/gmttid5x) :
-
-
+##### [W3Schools](https://www.w3schools.com/sql/), [SQL-Bolt](https://sqlbolt.com/), [SQL-Zoo](https://sqlzoo.net/wiki/SQL_Tutorial)
 
 
 ## 2. Machine Learning :
@@ -206,3 +84,34 @@ Hi! I'm your [**Dr. Alok Tiwari**]((https://dr-alok-tiwari.github.io/), Assistan
 ## 6. Data Science :
 
 ## 7. Data Engineering :
+
+
+## 8. Cheatsheets:
+
+#### a. Pre-requisites
+##### [codecademy cheat sheet](https://www.codecademy.com/resources/cheatsheets/all), [Big-O-cheat sheet](https://bigocheatsheet.io/?dark-mode=true), [Algo and DS](https://cooervo.github.io/Algorithms-DataStructures-BigONotation/), [Web scraping](https://blog.hartleybrody.com/web-scraping-cheat-sheet/), [Data Visualization with Tableau](https://www.datacamp.com/tutorial/data-visualisation-tableau), [Paul's online notes](https://tutorial.math.lamar.edu/Extras/CheatSheets_Tables.aspx#CalcSheet), [Jupyter Notebook](https://lnkd.in/g7cPmgHQ) , [Data Wrangling](https://bit.ly/3TiMibP), [Data Visualization](https://lnkd.in/gQ52Jd_J) , [Statistical Inference](https://lnkd.in/grNXVQh5) , [Probability ](https://lnkd.in/gvnWCphc), [Linear Algebra](https://lnkd.in/gty6XpVF) , [Calculus](https://lnkd.in/gjhsmsxu ) , [Big-O Notation](https://lnkd.in/gfYqM8WU) ,[Regular Expression](https://lnkd.in/gE9kZTZW) 
+
+
+#### b. Python 
+##### [Python cheatsheets](https://www.pythoncheatsheet.org/cheatsheet/basics),[Seaborn Charts](https://www.kaggle.com/code/themlphdstudent/cheat-sheet-seaborn-charts/notebook),[Pandas](https://lnkd.in/g4yTJ7CP) ,[NumPy](https://lnkd.in/gg9Uw-km),[MatPlotlib](https://lnkd.in/gahrGicD), [Seaborn](https://lnkd.in/gcu4UKpw), [Scikit-Learn](https://lnkd.in/gGfkNu5i), [Tensorflow](https://lnkd.in/g3fw3uRV), [Keras](https://lnkd.in/gfPTfbgg), [PyTorch](https://bit.ly/3lnsiIz), [Scientific Python Cheatsheet](https://ipgp.github.io/scientific_python_cheat_sheet/?utm_content=buffer7d821&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer#numpy-import-numpy-as-np), [Python String Formatting](https://lnkd.in/gHi26Uk2), [Flask](https://lnkd.in/gGzbSTgU), [Django](https://lnkd.in/grZcWz8y), [PyTorch Lightning](https://lnkd.in/gNnq5QXz) , [TensorFlow Probability Cheat Sheet](https://lnkd.in/gr3bgDGP)
+
+
+#### c. SQL
+##### [SQL-Cheatsheet](https://www.sqltutorial.org/sql-cheat-sheet/), [SQL](https://lnkd.in/gyierV3f), [PostgreSQL](https://lnkd.in/gzfiW7zB) , [MySQL](https://lnkd.in/g4JnPVTe)
+
+#### d. R
+##### [R](https://lnkd.in/gEgJ6A8j)
+
+
+#### e. Shell scripting
+##### [Unix/Linux Permissions ](https://bit.ly/3ZUfwA8), [Linux Commands](https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/), [Github](https://intellipaat.com/blog/tutorial/devops-tutorial/git-cheat-sheet/), [Git](https://lnkd.in/gyzhztvH), [Linux Command Line](https://bit.ly/3FtcTgw) 
+
+#### f. AI, ML, DL, NLP
+##### [Time Series](https://bit.ly/3Fvuep4) ,[NLP](https://bit.ly/3Fvursm) ,[Neural Network ](https://lnkd.in/gThs2AAp), [Deep Learning](https://lnkd.in/gVbSPae2) , [Machine Learning](https://bit.ly/3mZ5Wh3) , [OpenAI GPT-3 Documentation](https://lnkd.in/gawB_SC9) ,[GPT-3 API Reference](https://lnkd.in/gtCGZvX8) ,[GPT-3 GitHub Repository ](https://lnkd.in/g56cQQPD) , [How to use GPT-3 in Python](https://lnkd.in/gSx354PM) , [Getting started with GPT-3](https://lnkd.in/g999qJmH)
+
+
+
+
+#### g. Big Data and Cloud
+##### [AWS](https://bit.ly/3ZQWMS1) ,[Azure ](https://bit.ly/42f4N4V) ,[Google Cloud Platform ](https://bit.ly/3JJADzv) ,[Docker](https://bit.ly/3Lt2zJe) ,[Kubernetes](https://lnkd.in/gjXCT7Mb) ,[Apache Spark](https://lnkd.in/ge7Rj-Yr) ,[Hadoop](https://bit.ly/3Lq34DR) ,[AWS S3](https://bit.ly/3JMYe2A) ,[AWS Lambda](https://bit.ly/3Jq2QtI) ,[AWS EC2](https://bit.ly/3JpyuYz) ,[AWS CloudFormation](https://bit.ly/3JHE3D1) ,[AWS IAM](https://bit.ly/3mYW6f5) ,[AWS API Gateway](https://bit.ly/3LvmW8K) ,[AWS Route 53](https://lnkd.in/gJWK9KqR)  ,[AWS EKS](https://lnkd.in/gUZYvdvB) ,[AWS ECS](https://lnkd.in/geu_Hmu3)  ,[AWS RDS](https://lnkd.in/g-i6kMWB) ,[AWS Redshift](https://lnkd.in/gH_fEdU8) ,[AWS DynamoDB](https://lnkd.in/ghvfM889)  ,[MongoDB](https://lnkd.in/gHc4F4ER)  ,[PySpark RDD ](https://lnkd.in/gTHUYckq) ,[PySpark MLlib](https://lnkd.in/ggSy4AqJ) ,[PySpark GraphX](https://lnkd.in/gmttid5x) :
+
