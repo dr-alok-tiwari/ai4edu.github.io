@@ -53,7 +53,7 @@ Hi! I'm your [**Dr. Alok Tiwari**](https://dr-alok-tiwari.github.io/), Assistant
 ## 1. Prerequisites :
 
 ### A. Maths :
-##### [Math for programmers](https://akuli.github.io/math-tutorial/), [Essence of Linear Algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab), [Math is Fun](https://www.mathsisfun.com/algebra/scalar-vector-matrix.html), [Calculus](https://the-learning-machine.com/article/machine-learning/calculus), [Linear Algebra - Part 1](https://the-learning-machine.com/article/machine-learning/linear-algebra), [Linear Algebra - Part 2](https://en.wikibooks.org/wiki/Linear_Algebra)
+    [Math for programmers](https://akuli.github.io/math-tutorial/), [Essence of Linear Algebra](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab), [Math is Fun](https://www.mathsisfun.com/algebra/scalar-vector-matrix.html), [Calculus](https://the-learning-machine.com/article/machine-learning/calculus), [Linear Algebra - Part 1](https://the-learning-machine.com/article/machine-learning/linear-algebra), [Linear Algebra - Part 2](https://en.wikibooks.org/wiki/Linear_Algebra)
 
 ### B. Stats & Probability :
 ##### [Statistics Part 1](https://www.youtube.com/watch?v=qBigTkBLU6g&list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9), [Statistics Part 2](https://www.youtube.com/playlist?list=PL1328115D3D8A2566), [Statistics Part 3](https://www.mygreatlearning.com/academy/courses/693367/11266#?utm_source=share_with_friends), [Prob and Stats](https://probabilitycourse.com/), [Concepts and applications of inferential stats](http://vassarstats.net/textbook/index.html), [Seeing Theory](https://seeing-theory.brown.edu/)
