@@ -67,7 +67,7 @@ Hi! I'm your [**Dr. Alok Tiwari**](https://dr-alok-tiwari.github.io/), Assistant
 
 
 ### D. R :
-##### [R-Official](https://www.r-project.org/),[Swirl](https://github.com/swirldev/swirl_courses#swirl-courses), [Learnr](https://rstudio.github.io/learnr/), [R-for beginners](https://github.com/suneelpatel/R-for-Beginners)
+##### [R-Official](https://www.r-project.org/),[Swirl](https://github.com/swirldev/swirl_courses#swirl-courses), [Learnr](https://rstudio.github.io/learnr/), [R-for beginners](https://github.com/suneelpatel/R-for-Beginners), [Data Science: R Basics](https://learning.edx.org/course/course-v1:HarvardX+PH125.1x+1T2024/home)
 
 
 
@@ -82,7 +82,7 @@ Hi! I'm your [**Dr. Alok Tiwari**](https://dr-alok-tiwari.github.io/), Assistant
 
 
 ## 2. Machine Learning :
-##### [ML system design: 300 case studies to learn from](https://www.evidentlyai.com/ml-system-design) , [Project based learning](https://github.com/practical-tutorials/project-based-learning), [ML Interviews Book](https://huyenchip.com/ml-interviews-book/), [ML-Course](https://mlcourse.ai/book/index.html), [Made with ML](https://madewithml.com/#foundations)
+##### [ML system design: 300 case studies to learn from](https://www.evidentlyai.com/ml-system-design) , [Project based learning](https://github.com/practical-tutorials/project-based-learning), [ML Interviews Book](https://huyenchip.com/ml-interviews-book/), [ML-Course](https://mlcourse.ai/book/index.html), [Made with ML](https://madewithml.com/#foundations), [HarvardX: Data Science: Machine Learning](https://www.edx.org/learn/machine-learning/harvard-university-data-science-machine-learning)
 
 ## 3. Deep Learning :
 
@@ -93,7 +93,7 @@ Hi! I'm your [**Dr. Alok Tiwari**](https://dr-alok-tiwari.github.io/), Assistant
 ##### [Gen-AI for beginners](https://github.com/microsoft/generative-ai-for-beginners)
 
 ## 6. Data Science :
-##### [Data Science Interviews](https://github.com/alexeygrigorev/data-science-interviews) , [Data Science](https://thaddeus-segura.com/), 
+##### [Data Science Interviews](https://github.com/alexeygrigorev/data-science-interviews) , [Data Science](https://thaddeus-segura.com/), [HarvardX: Data Science: Visualization](https://www.edx.org/learn/data-visualization/harvard-university-data-science-visualization), [HarvardX: Data Science: Probability](https://edx.org/learn/probability/harvard-university-data-science-probability), [HarvardX: Data Science: Inference and Modeling](https://www.edx.org/learn/data-science/harvard-university-data-science-inference-and-modeling), [HarvardX: Data Science: Wrangling](https://www.edx.org/learn/data-science/harvard-university-data-science-wrangling),[HarvardX: Data Science: Linear Regression](https://www.edx.org/learn/data-science/harvard-university-data-science-linear-regression),[HarvardX: Introduction to Data Science with Python](https://www.edx.org/learn/data-science/harvard-university-introduction-to-data-science-with-python)
 
 ## 7. Data Engineering :
 
