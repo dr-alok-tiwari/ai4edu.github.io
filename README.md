@@ -82,15 +82,17 @@ Hi! I'm your [**Dr. Alok Tiwari**](https://dr-alok-tiwari.github.io/), Assistant
 
 
 ## 2. Machine Learning :
-##### [ML system design: 300 case studies to learn from](https://www.evidentlyai.com/ml-system-design) , [Project based learning](https://github.com/practical-tutorials/project-based-learning), [ML Interviews Book](https://huyenchip.com/ml-interviews-book/), [ML-Course](https://mlcourse.ai/book/index.html), [Made with ML](https://madewithml.com/#foundations), [HarvardX: Data Science: Machine Learning](https://www.edx.org/learn/machine-learning/harvard-university-data-science-machine-learning)
+##### [ML system design: 300 case studies to learn from](https://www.evidentlyai.com/ml-system-design) , [Project based learning](https://github.com/practical-tutorials/project-based-learning), [ML Interviews Book](https://huyenchip.com/ml-interviews-book/), [ML-Course](https://mlcourse.ai/book/index.html), [Made with ML](https://madewithml.com/#foundations), [HarvardX: Data Science: Machine Learning](https://www.edx.org/learn/machine-learning/harvard-university-data-science-machine-learning), [Made with ML](https://github.com/GokuMohandas/Made-With-ML), [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning), 
 
 ## 3. Deep Learning :
 
+##### [Deep Learning Drizzle](https://github.com/kmario23/deep-learning-drizzle)
+
 ## 4. Natural Language Processing (NLP) :
-##### [LLM Chronicles](https://llm-chronicles.com/)
+##### [LLM Chronicles](https://llm-chronicles.com/), [LLMsPracticalGuide](https://github.com/Mooler0410/LLMsPracticalGuide)
 
 ## 5. LangChain Models :
-##### [Gen-AI for beginners](https://github.com/microsoft/generative-ai-for-beginners)
+##### [Gen-AI for beginners](https://github.com/microsoft/generative-ai-for-beginners), [Prompt Engineering Guide](https://www.promptingguide.ai/),
 
 ## 6. Data Science :
 ##### [Data Science Interviews](https://github.com/alexeygrigorev/data-science-interviews) , [Data Science](https://thaddeus-segura.com/), [HarvardX: Data Science: Visualization](https://www.edx.org/learn/data-visualization/harvard-university-data-science-visualization), [HarvardX: Data Science: Probability](https://edx.org/learn/probability/harvard-university-data-science-probability), [HarvardX: Data Science: Inference and Modeling](https://www.edx.org/learn/data-science/harvard-university-data-science-inference-and-modeling), [HarvardX: Data Science: Wrangling](https://www.edx.org/learn/data-science/harvard-university-data-science-wrangling),[HarvardX: Data Science: Linear Regression](https://www.edx.org/learn/data-science/harvard-university-data-science-linear-regression),[HarvardX: Introduction to Data Science with Python](https://www.edx.org/learn/data-science/harvard-university-introduction-to-data-science-with-python), [Introduction to Data Science](https://rafalab.dfci.harvard.edu/dsbook/)
