@@ -82,11 +82,11 @@ Hi! I'm your [**Dr. Alok Tiwari**](https://dr-alok-tiwari.github.io/), Assistant
 
 
 ## 2. Machine Learning :
-##### [ML system design: 300 case studies to learn from](https://www.evidentlyai.com/ml-system-design) , [Project based learning](https://github.com/practical-tutorials/project-based-learning), [ML Interviews Book](https://huyenchip.com/ml-interviews-book/), [ML-Course](https://mlcourse.ai/book/index.html), [Made with ML](https://madewithml.com/#foundations), [HarvardX: Data Science: Machine Learning](https://www.edx.org/learn/machine-learning/harvard-university-data-science-machine-learning), [Made with ML](https://github.com/GokuMohandas/Made-With-ML), [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning), 
+##### [ML system design: 300 case studies to learn from](https://www.evidentlyai.com/ml-system-design) , [Project based learning](https://github.com/practical-tutorials/project-based-learning), [ML Interviews Book](https://huyenchip.com/ml-interviews-book/), [ML-Course](https://mlcourse.ai/book/index.html), [Made with ML](https://madewithml.com/#foundations), [HarvardX: Data Science: Machine Learning](https://www.edx.org/learn/machine-learning/harvard-university-data-science-machine-learning), [Made with ML](https://github.com/GokuMohandas/Made-With-ML), [Awesome Machine Learning](https://github.com/josephmisiti/awesome-machine-learning), [ML for Healthcare](https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/pages/lecture-notes/)
 
 ## 3. Deep Learning :
 
-##### [Deep Learning Drizzle](https://github.com/kmario23/deep-learning-drizzle)
+##### [Deep Learning Drizzle](https://github.com/kmario23/deep-learning-drizzle), [Practical Deep Learning for coders](https://course.fast.ai/Lessons/lesson1.html), [CNN for computer vision](https://cs231n.github.io/), [Deep Learning Resources](https://deep-learning-drizzle.github.io/), 
 
 ## 4. Natural Language Processing (NLP) :
 ##### [LLM Chronicles](https://llm-chronicles.com/), [LLMsPracticalGuide](https://github.com/Mooler0410/LLMsPracticalGuide)
