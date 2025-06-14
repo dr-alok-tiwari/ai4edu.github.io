@@ -128,3 +128,16 @@ Hi! I'm [**Dr. Alok Tiwari**](https://dr-alok-tiwari.github.io/), Assistant Prof
 #### g. Big Data and Cloud
 ##### [AWS](https://bit.ly/3ZQWMS1) ,[Azure ](https://bit.ly/42f4N4V) ,[Google Cloud Platform ](https://bit.ly/3JJADzv) ,[Docker](https://bit.ly/3Lt2zJe) ,[Kubernetes](https://lnkd.in/gjXCT7Mb) ,[Apache Spark](https://lnkd.in/ge7Rj-Yr) ,[Hadoop](https://bit.ly/3Lq34DR) ,[AWS S3](https://bit.ly/3JMYe2A) ,[AWS Lambda](https://bit.ly/3Jq2QtI) ,[AWS EC2](https://bit.ly/3JpyuYz) ,[AWS CloudFormation](https://bit.ly/3JHE3D1) ,[AWS IAM](https://bit.ly/3mYW6f5) ,[AWS API Gateway](https://bit.ly/3LvmW8K) ,[AWS Route 53](https://lnkd.in/gJWK9KqR)  ,[AWS EKS](https://lnkd.in/gUZYvdvB) ,[AWS ECS](https://lnkd.in/geu_Hmu3)  ,[AWS RDS](https://lnkd.in/g-i6kMWB) ,[AWS Redshift](https://lnkd.in/gH_fEdU8) ,[AWS DynamoDB](https://lnkd.in/ghvfM889)  ,[MongoDB](https://lnkd.in/gHc4F4ER)  ,[PySpark RDD ](https://lnkd.in/gTHUYckq) ,[PySpark MLlib](https://lnkd.in/ggSy4AqJ) ,[PySpark GraphX](https://lnkd.in/gmttid5x) :
 
+
+# Job Portals:
+
+## Europe
+#### a. luxembourg -
+##### 1. https://work-in-luxembourg.lu/register
+
+
+## Singapore
+## USA
+## Canada
+## Japan
+
