@@ -131,13 +131,408 @@ Hi! I'm [**Dr. Alok Tiwari**](https://dr-alok-tiwari.github.io/), Assistant Prof
 
 # Job Portals:
 
-## Europe
-#### a. luxembourg -
-##### 1. https://work-in-luxembourg.lu/register
-## Singapore
-## USA
-## Canada
-## Japan
+## 🇪🇺 Europe (Country-Specific)
+
+### 🇩🇪 Germany
+- [StepStone Germany](https://www.stepstone.de/)
+- [XING Jobs](https://www.xing.com/jobs)
+- [Arbeitsagentur Jobbörse](https://jobboerse.arbeitsagentur.de/)
+- [LinkedIn Germany](https://de.linkedin.com/jobs)
+- [Indeed Germany](https://de.indeed.com/)
+
+### 🇫🇷 France
+- [Pole Emploi](https://www.pole-emploi.fr/)
+- [Apec](https://www.apec.fr/)
+- [Indeed France](https://www.indeed.fr/)
+- [Monster France](https://www.monster.fr/)
+- [LinkedIn France](https://fr.linkedin.com/jobs)
+
+### 🇳🇱 Netherlands
+- [Nationale Vacaturebank](https://www.nationalevacaturebank.nl/)
+- [Intermediair](https://www.intermediair.nl/)
+- [LinkedIn Netherlands](https://nl.linkedin.com/jobs)
+- [Indeed Netherlands](https://nl.indeed.com/)
+
+### 🇸🇪 Sweden
+- [Arbetsförmedlingen](https://arbetsformedlingen.se/)
+- [LinkedIn Sweden](https://se.linkedin.com/jobs)
+- [Blocket Jobb](https://www.blocketjobb.se/)
+- [Indeed Sweden](https://se.indeed.com/)
+
+### 🇮🇹 Italy
+- [Indeed Italy](https://it.indeed.com/)
+- [InfoJobs Italy](https://www.infojobs.it/)
+- [LinkedIn Italy](https://it.linkedin.com/jobs)
+- [Monster Italy](https://www.monster.it/)
+
+### 🇪🇸 Spain
+- [InfoJobs Spain](https://www.infojobs.net/)
+- [LinkedIn Spain](https://es.linkedin.com/jobs)
+- [Indeed Spain](https://es.indeed.com/)
+- [Jobandtalent](https://www.jobandtalent.com/)
+
+### 🇵🇱 Poland
+- [Pracuj.pl](https://www.pracuj.pl/)
+- [LinkedIn Poland](https://pl.linkedin.com/jobs)
+- [Indeed Poland](https://pl.indeed.com/)
+
+### 🇫🇮 Finland
+- [TE-palvelut (Public Employment)](https://www.te-palvelut.fi/)
+- [LinkedIn Finland](https://fi.linkedin.com/jobs)
+- [Duunitori](https://duunitori.fi/)
+- [Oikotie Työpaikat](https://tyopaikat.oikotie.fi/)
+
+### 🇨🇭 Switzerland
+- [JobScout24](https://www.jobscout24.ch/)
+- [Jobs.ch](https://www.jobs.ch/)
+- [LinkedIn Switzerland](https://ch.linkedin.com/jobs)
+- [Indeed Switzerland](https://www.indeed.ch/)
+
+### 🇳🇴 Norway
+- [NAV Jobb](https://arbeidsplassen.nav.no/)
+- [LinkedIn Norway](https://no.linkedin.com/jobs)
+- [Finn.no](https://www.finn.no/job/fulltime/search.html)
+
+### 🇦🇹 Austria
+- [Karriere.at](https://www.karriere.at/)
+- [StepStone Austria](https://www.stepstone.at/)
+- [LinkedIn Austria](https://at.linkedin.com/jobs)
+
+
+## 🇺🇸 United States
+- [LinkedIn Jobs](https://www.linkedin.com/jobs/)
+- [Indeed USA](https://www.indeed.com/)
+- [Glassdoor](https://www.glassdoor.com/)
+- [USAJobs (Federal Government)](https://www.usajobs.gov/)
+- [SimplyHired](https://www.simplyhired.com/)
+- [Monster USA](https://www.monster.com/)
+
+## 🇨🇦 Canada
+- [Job Bank Canada](https://www.jobbank.gc.ca/)
+- [Workopolis](https://www.workopolis.com/)
+- [Indeed Canada](https://ca.indeed.com/)
+- [Monster Canada](https://www.monster.ca/)
+- [Eluta](https://www.eluta.ca/)
+- [LinkedIn Canada](https://ca.linkedin.com/jobs)
+
+## 🇬🇧 United Kingdom
+- [Indeed UK](https://uk.indeed.com/)
+- [Reed](https://www.reed.co.uk/)
+- [Totaljobs](https://www.totaljobs.com/)
+- [CV-Library](https://www.cv-library.co.uk/)
+- [Guardian Jobs](https://jobs.theguardian.com/)
+- [LinkedIn UK](https://uk.linkedin.com/jobs)
+
+## 🇦🇺 Australia
+- [Seek](https://www.seek.com.au/)
+- [Indeed Australia](https://au.indeed.com/)
+- [Jora](https://au.jora.com/)
+- [CareerOne](https://www.careerone.com.au/)
+- [Adzuna Australia](https://www.adzuna.com.au/)
+- [LinkedIn Australia](https://au.linkedin.com/jobs)
+
+## 🇮🇳 India
+- [Naukri](https://www.naukri.com/)
+- [LinkedIn India](https://in.linkedin.com/jobs)
+- [Indeed India](https://www.indeed.co.in/)
+- [Monster India](https://www.foundit.in/)
+- [Shine](https://www.shine.com/)
+- [TimesJobs](https://www.timesjobs.com/)
+
+
+## 🇸🇬 Singapore
+- [JobStreet Singapore](https://www.jobstreet.com.sg/)
+- [JobsDB Singapore](https://www.jobsdb.com/sg)
+- [MyCareersFuture](https://www.mycareersfuture.gov.sg/)
+- [Indeed Singapore](https://www.indeed.com.sg/)
+- [LinkedIn Singapore](https://sg.linkedin.com/jobs)
+
+## 🇦🇪 United Arab Emirates
+- [Bayt](https://www.bayt.com/)
+- [Naukrigulf](https://www.naukrigulf.com/)
+- [GulfTalent](https://www.gulftalent.com/)
+- [Dubizzle Jobs](https://dubai.dubizzle.com/jobs/)
+- [LinkedIn UAE](https://ae.linkedin.com/jobs)
+
+## 🌐 Global Platforms
+- [LinkedIn](https://www.linkedin.com/jobs/)
+- [Glassdoor](https://www.glassdoor.com/)
+- [Indeed](https://www.indeed.com/)
+- [Monster](https://www.monster.com/)
+- [CareerJet](https://www.careerjet.com/)
+- [Jooble](https://jooble.org/)
+- [ZipRecruiter](https://www.ziprecruiter.com/)
+
+
+# 🧑‍🔬 Postdoctoral Job Portals (Global & Country-Specific)
+
+---
+
+## 🌐 Global Postdoc Portals
+- [Nature Careers](https://www.nature.com/naturecareers) – Global postdoc and academic jobs  
+- [Science Careers (AAAS)](https://jobs.sciencecareers.org/) – Global science and postdoc jobs  
+- [Academic Positions](https://academicpositions.com/) – Postdocs and research roles worldwide  
+- [Euraxess](https://euraxess.ec.europa.eu/) – EU-wide postdoc and researcher mobility portal  
+- [Times Higher Education Jobs](https://www.timeshighereducation.com/unijobs/) – Academic and postdoc roles  
+- [ResearchGate Jobs](https://www.researchgate.net/jobs) – Global research and postdoc listings  
+- [PostdocJobs.com](https://postdocjobs.com/) – Dedicated global postdoctoral listing site  
+- [FindAPostDoc](https://www.findapostdoc.com/) – Academic postdoc jobs worldwide  
+- [INOMICS](https://inomics.com/) – Postdocs in economics, social sciences, and STEM  
+- [ScholarshipDb.net](https://scholarshipdb.net/) – Research and postdoc opportunities  
+
+---
+
+## 🇺🇸 United States
+- [Chronicle of Higher Education](https://chroniclevitae.com/job_search) – Academic jobs including postdocs  
+- [PostdocJobs.com](https://postdocjobs.com/) – US and global postdoc listings  
+- [HigherEdJobs](https://www.higheredjobs.com/) – US academic and postdoctoral vacancies  
+- [NIH Office of Intramural Training & Education](https://www.training.nih.gov/) – NIH postdoc fellowships  
+- [NSF REU & Postdoc Opportunities](https://www.nsf.gov/funding/) – NSF-supported postdoc programs  
+- [Handshake (University Networks)](https://joinhandshake.com/) – Some institutions post postdoc listings  
+
+---
+
+## 🇬🇧 United Kingdom
+- [Jobs.ac.uk](https://www.jobs.ac.uk/) – UK academic and postdoctoral opportunities  
+- [FindAPostDoc UK](https://www.findapostdoc.com/search/area-UK/) – Postdocs in the UK  
+- [University websites (e.g., Oxford, Cambridge, Imperial)] – Direct postdoc openings  
+
+---
+
+## 🇨🇦 Canada
+- [University Affairs Jobs](https://www.universityaffairs.ca/search-job/) – Canadian academic jobs  
+- [CAUT Job Board](https://www.caut.ca/resources/careers) – Canadian Association of University Teachers  
+- [FindAPostDoc CA](https://www.findapostdoc.com/search/area-Canada/) – Canadian postdocs  
+- [Mitacs Elevate](https://www.mitacs.ca/en/programs/elevate) – Industry-academic postdoc program  
+
+---
+
+## 🇪🇺 European Union
+- [Euraxess Europe](https://euraxess.ec.europa.eu/) – EU-wide postdoctoral listings  
+- [Academic Positions EU](https://academicpositions.com/find-jobs) – Academic/postdoc listings in Europe  
+- [ResearchGate Jobs – Europe](https://www.researchgate.net/jobs) – Postdocs in European institutions  
+
+---
+
+## 🇩🇪 Germany
+- [Academics.de](https://www.academics.com/) – German academic and postdoc jobs  
+- [Euraxess Germany](https://www.euraxess.de/) – National postdoc listings  
+- [Helmholtz Association](https://www.helmholtz.de/en/career/job-vacancies/) – Research centers in Germany  
+- [DAAD Postdoc Programs](https://www.daad.de/en/) – Postdoc funding and jobs  
+
+---
+
+## 🇫🇷 France
+- [CNRS Careers](https://emploi.cnrs.fr/) – Postdocs at the National Centre for Scientific Research  
+- [INRAE Jobs](https://jobs.inrae.fr/) – Research postdocs in agriculture and environment  
+- [Euraxess France](https://www.euraxess.fr/) – French postdoc listings  
+
+---
+
+## 🇳🇱 Netherlands
+- [AcademicTransfer](https://www.academictransfer.com/) – Dutch academic and postdoc positions  
+- [NWO Talent Programmes](https://www.nwo.nl/en/funding) – Netherlands Organisation for Scientific Research  
+
+---
+
+## 🇸🇪 Sweden
+- [University Positions Sweden](https://www.universitypositions.eu/jobs-in/Sweden) – Swedish postdoc roles  
+- [Euraxess Sweden](https://www.euraxess.se/) – Postdoc programs in Sweden  
+
+---
+
+## 🇫🇮 Finland
+- [Research.fi](https://research.fi/en) – Finnish research jobs and postdocs  
+- [Aalto University Jobs](https://www.aalto.fi/en/open-positions) – Aalto-specific opportunities  
+
+---
+
+## 🇨🇭 Switzerland
+- [ETH Zurich Careers](https://www.jobs.ethz.ch/) – ETH postdoc jobs  
+- [EPFL Jobs](https://recruiting.epfl.ch/) – EPFL academic and research openings  
+- [MyScience.ch](https://www.myscience.ch/) – Postdocs and research jobs  
+
+---
+
+## 🇦🇺 Australia
+- [UniJobs](https://www.unijobs.com.au/) – Australian university jobs  
+- [Times Higher Ed Australia](https://www.timeshighereducation.com/unijobs/jobs/australia/)  
+- [Research Jobs Australia](https://www.researchcareer.net.au/)  
+
+---
+
+## 🇸🇬 Singapore
+- [A*STAR Careers](https://www.a-star.edu.sg/Careers) – Postdoc roles in science and tech  
+- [NUS Careers](https://careers.nus.edu.sg/) – National University of Singapore jobs  
+- [NTU Careers](https://www.ntu.edu.sg/about/careers) – Nanyang Technological University  
+
+---
+
+## 🇯🇵 Japan
+- [JREC-IN Portal](https://jrecin.jst.go.jp/seek/SeekTop) – Comprehensive research job listings in Japan  
+- [RIKEN Careers](https://www.riken.jp/en/careers/) – Prestigious Japanese research institute  
+
+# 🌐 Remote Job Portals (Global & Specialized)
+
+---
+
+## 🌍 Global Remote Job Boards
+- [We Work Remotely](https://weworkremotely.com/) – One of the largest remote work communities  
+- [Remote OK](https://remoteok.com/) – Tech-focused remote job board  
+- [FlexJobs](https://www.flexjobs.com/) – Curated remote and flexible job listings (subscription-based)  
+- [Remotive](https://remotive.io/) – Global remote jobs in tech, marketing, and more  
+- [Working Nomads](https://www.workingnomads.co/jobs) – Curated list of remote jobs  
+- [Jobspresso](https://jobspresso.co/) – Remote tech, marketing, and support jobs  
+- [AngelList Talent](https://angel.co/) – Startup remote jobs (now part of Wellfound)  
+- [Remote.co](https://remote.co/remote-jobs/) – Remote jobs across categories  
+- [Outsourcely](https://www.outsourcely.com/) – Remote freelance and full-time jobs  
+- [SkipTheDrive](https://www.skipthedrive.com/) – Remote jobs aggregator  
+- [JustRemote](https://justremote.co/) – Remote work opportunities worldwide  
+
+---
+
+## 🖥️ Tech & Developer-Focused Remote Jobs
+- [Stack Overflow Jobs](https://stackoverflow.com/jobs/remote-developer-jobs) – Remote dev jobs  
+- [GitHub Jobs (Archived)](https://jobs.github.com/) – Developer-focused (note: deprecated, now limited)  
+- [Turing](https://www.turing.com/) – Remote engineering jobs with global companies  
+- [Gun.io](https://www.gun.io/) – Remote freelance developer opportunities  
+- [HackerRank Jobs](https://www.hackerrank.com/jobs) – Coding skills-based job matching  
+
+---
+
+## 🧑‍💼 Remote Jobs in Non-Tech Fields
+- [PowerToFly](https://powertofly.com/) – Remote jobs focused on diversity and inclusion  
+- [The Mom Project](https://themomproject.com/) – Flexible and remote jobs for parents  
+- [Dynamite Jobs](https://dynamitejobs.com/) – Startup-friendly remote roles  
+- [Virtual Vocations](https://www.virtualvocations.com/) – Subscription-based, screened listings  
+
+---
+
+## 💼 Freelancing & Gig Work Platforms
+- [Upwork](https://www.upwork.com/) – Global freelance marketplace  
+- [Fiverr](https://www.fiverr.com/) – Freelance services from creatives and professionals  
+- [PeoplePerHour](https://www.peopleperhour.com/) – Remote freelance projects  
+- [Toptal](https://www.toptal.com/) – Elite freelancing platform for developers and designers  
+
+---
+
+## 🧪 Academic & Research Remote Jobs
+- [Euraxess Remote](https://euraxess.ec.europa.eu/) – Some research jobs allow remote work  
+- [ResearchGate Jobs](https://www.researchgate.net/jobs) – Filter by remote/research from home  
+- [FindAPostDoc](https://www.findapostdoc.com/) – Occasionally includes remote options  
+
+---
+
+## 📚 Remote Teaching & Education
+- [Teach Away](https://www.teachaway.com/) – Online and international teaching jobs  
+- [VIPKid](https://www.vipkid.com/) – Remote English teaching to students in China  
+- [Outschool](https://outschool.com/teach) – Teach live classes remotely for kids  
+- [Preply](https://preply.com/) – Online tutoring jobs  
+
+---
+
+## 🧰 Remote Work Aggregators & Communities
+- [Nomad List](https://nomadlist.com/) – Tools and job boards for digital nomads  
+- [Remote OK](https://remoteok.com/) – Also offers community ratings and salary data  
+- [NoDesk](https://nodesk.co/remote-jobs/) – Curated remote opportunities  
+
+# 🔬 Research & Development Resources
+
+---
+
+## 🧠 Research Search Engines & Databases
+- [Google Scholar](https://scholar.google.com/) – Widely used academic search engine  
+- [Semantic Scholar](https://www.semanticscholar.org) – AI-powered academic paper search  
+- [PubMed](https://pubmed.ncbi.nlm.nih.gov/) – Biomedical literature database  
+- [ScienceDirect](https://www.sciencedirect.com/) – Elsevier’s journal platform  
+- [Scopus](https://www.scopus.com/) – Citation indexing and abstract database (Elsevier)  
+- [Web of Science](https://www.webofscience.com/) – Clarivate's multidisciplinary citation index  
+- [BASE](https://www.base-search.net/) – Open access academic web search engine  
+- [CORE](https://core.ac.uk/) – Aggregates open access research papers  
+- [arXiv](https://arxiv.org/) – Preprints in physics, computer science, and math  
+- [bioRxiv](https://www.biorxiv.org/) – Preprints in biology  
+- [SSRN](https://www.ssrn.com/) – Social science and humanities research papers  
+
+---
+
+## 📑 Journal Finder Tools
+- [Elsevier Journal Finder](https://journalfinder.elsevier.com/) – Based on abstract/title  
+- [Springer Journal Suggester](https://journalsuggester.springer.com/)  
+- [IEEE Publication Recommender](https://ieee.org/publications/authors/pubs-recommender.html)  
+- [Taylor & Francis Journal Suggester](https://authorservices.taylorandfrancis.com/journal-suggester/)  
+- [Wiley Journal Finder](https://journalfinder.wiley.com/)  
+- [JANE (Journal/Author Name Estimator)](https://jane.biosemantics.org/) – For biomedical fields  
+- [Edanz Journal Selector](https://www.edanz.com/journal-selector)  
+- [MDPI Journal Finder](https://www.mdpi.com/journalfinder)  
+
+---
+
+## 🎓 Academic Conference Portals
+- [WikiCFP](http://www.wikicfp.com/) – Largest free directory of CFPs  
+- [AllConferences.com](https://www.allconferences.com/) – International conference listings  
+- [Conference Alerts](https://conferencealerts.com/) – Free academic alerts by domain  
+- [IEEE Conferences](https://conferences.ieee.org/) – Engineering & technology conferences  
+- [ACM Conferences](https://www.acm.org/conferences) – Computing research events  
+- [Springer Conferences](https://www.springer.com/gp/authors-editors/conference-proceedings)  
+- [Research.com Conferences](https://research.com/conference) – Research-focused events  
+
+---
+
+## 📚 Reference Management Tools
+- [Zotero](https://www.zotero.org/) – Free and open-source  
+- [Mendeley](https://www.mendeley.com/) – Academic collaboration and reference manager  
+- [EndNote](https://endnote.com/) – Powerful commercial tool  
+- [JabRef](https://www.jabref.org/) – Open-source BibTeX manager for LaTeX  
+- [Paperpile](https://paperpile.com/) – Reference manager for Google Docs  
+
+---
+
+## 🧪 Research Data Management & Repositories
+- [Figshare](https://figshare.com/) – Free data and figure sharing platform  
+- [Zenodo](https://zenodo.org/) – Open access data and software archiving (by CERN)  
+- [OSF (Open Science Framework)](https://osf.io/) – Project and data management  
+- [Dryad](https://datadryad.org/) – Data repository for scientific publications  
+- [Harvard Dataverse](https://dataverse.harvard.edu/) – Repository for sharing, citing, and archiving data  
+
+---
+
+## 📈 Research Metrics & Journal Rankings
+- [Scimago Journal Rank (SJR)](https://www.scimagojr.com/) – Journal metrics and subject rankings  
+- [Journal Citation Reports (Clarivate)](https://jcr.clarivate.com/) – Impact factors and quartiles  
+- [Google Scholar Metrics](https://scholar.google.com/citations?view_op=top_venues) – Top publications  
+- [Eigenfactor](http://www.eigenfactor.org/) – Metrics for academic influence  
+- [Publons (Now integrated with Web of Science)](https://publons.com/) – Reviewer recognition  
+
+---
+
+## ✍️ Academic Writing & Plagiarism Check
+- [Grammarly](https://www.grammarly.com/) – Writing assistant and grammar checker  
+- [Hemingway Editor](https://hemingwayapp.com/) – Style and readability  
+- [Turnitin](https://www.turnitin.com/) – Plagiarism detection (institutional access)  
+- [PlagScan](https://www.plagscan.com/) – Academic plagiarism checker  
+- [Scribbr Plagiarism Checker](https://www.scribbr.com/plagiarism-checker/) – Based on Turnitin  
+
+---
+
+## 🔍 Research Funding Databases
+- [Grants.gov (USA)](https://www.grants.gov/) – Federal funding opportunities  
+- [NSF Funding](https://www.nsf.gov/funding/) – US science foundation  
+- [NIH Grants](https://grants.nih.gov/) – Biomedical and health research  
+- [CORDIS (EU)](https://cordis.europa.eu/) – EU-funded R&D projects  
+- [Wellcome Trust](https://wellcome.org/grant-funding) – Global health and science research  
+- [Horizon Europe](https://ec.europa.eu/programmes/horizon2020/) – EU framework program  
+
+---
+
+## 🛠️ Other Research & Development Tools
+- [Overleaf](https://www.overleaf.com/) – Online LaTeX editor for collaboration  
+- [ResearchRabbit](https://www.researchrabbit.ai/) – Visual research tracking  
+- [Connected Papers](https://www.connectedpapers.com/) – Literature mapping  
+- [Elicit](https://elicit.org/) – AI-powered research assistant  
+- [SciSpace Copilot](https://typeset.io/sci) – Read and interact with research papers  
+- [Notion](https://www.notion.so/) – Knowledge and research management  
+- [Obsidian.md](https://obsidian.md/) – Markdown-based research note-taking  
+
 
 
 # 🔧 AI Tools for Scientific Research (Enhanced & Categorized)
