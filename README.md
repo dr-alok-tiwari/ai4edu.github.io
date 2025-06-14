@@ -140,124 +140,150 @@ Hi! I'm [**Dr. Alok Tiwari**](https://dr-alok-tiwari.github.io/), Assistant Prof
 ## Japan
 
 
-# 🔧 AI Tools for Scientific Research (Grouped)
+# 🔧 AI Tools for Scientific Research (Enhanced & Categorized)
 
 ---
 
-## 📖 Literature Discovery & Mapping
+## 📖 Literature Discovery & Exploration
 
-### 🔍 AI-Powered Search Engines
+### AI-Powered Search Engines
 - [Semantic Scholar](https://www.semanticscholar.org) – Free  
 - [SciSpace](https://typeset.io) – $20/month (Free plan available)  
 - [Consensus](https://consensus.app) – $11.99/month (Free plan available)  
 - [Scite](https://scite.ai) – $20/month (Free plan available)  
-- [Scispace](https://typeset.io) – $20/month (Free plan available)  
 - [Lunation](https://www.lunation.ai) – $20/month (Free plan available)  
-- [Evidence Hunt](https://evidencehunt.com) – Free only  
-- [System Pro](https://systempro.ai) – $120/month, $1,150/year (Funded only)  
-- [The Literature](https://www.theliterature.com) – Closed only  
+- [Evidence Hunt](https://evidencehunt.com) – Free  
+- [System Pro](https://systempro.ai) – $120/month (Funded only)  
+- [The Literature](https://www.theliterature.com) – Invite only  
 - [Search Smart](https://www.searchsmart.ai) – Free  
 - [OpenRead](https://www.openread.io) – $10/month (Free plan available)  
 - [Scorify](https://www.scorify.ai) – $8/month (Free plan available)  
-- [Unite AI](https://www.unite.ai) – $5/month (Free plan available)  
+- [Unite AI](https://www.unite.ai) – Free articles and AI education  
 - [OpenScholar](https://www.openscholar.org) – Free  
 - [Sfera](https://www.sfera.ai) – Free  
-- [Elicit](https://elicit.com) – $12/month, $120/year (Free plan available)  
-- [Iris AI / In Discovery](https://iris.ai) – Free (Enterprise: $179/month, $1,799/year)  
-- [Keenious](https://www.keenious.com) – €12/month (Free plan available)
+- [Elicit](https://elicit.org) – Free (Beta)  
+- [Iris AI](https://iris.ai) – Free plan available (for individuals)  
+- [Keenious](https://www.keenious.com) – Free plan available  
 
-### 🗺️ Literature Mapping (Graph-Based)
+---
+
+## 🗺️ Literature Mapping (Graph-Based Visualization)
 - [Research Rabbit](https://www.researchrabbit.ai) – Free  
-- [Litmaps](https://www.litmaps.com) – $7.50/month, $12/year (Free plan available)  
+- [Litmaps](https://www.litmaps.com) – Free plan available  
 - [Connected Papers](https://www.connectedpapers.com) – Free  
 - [Inciteful](https://inciteful.xyz) – Free  
 
 ---
 
-## 🧠 Reading & Research Assistance
+## 📚 Reading & Understanding Assistants
 
-### 📚 AI-Powered Reading Assistants
-- [Dimensions](https://www.dimensions.ai) – Free  
-- [Scholarcy](https://www.scholarcy.com) – $8.25/month (Free plan available)  
-- [SciSpace Copilot](https://typeset.io/sci) – $30/month (Free plan available)  
+### Paper Summarization
+- [Scholarcy](https://www.scholarcy.com) – Free plan available  
+- [SciSpace Copilot](https://typeset.io/sci) – Free plan available  
+- [Splitgraph (experimental)](https://splitgraph.com) – Free (for structured data browsing)
 
-### 💬 Chatting with PDFs
-- [Anna’s Archive](https://annas-archive.org) – Free  
+### Chat with Papers
+- [ChatPDF](https://www.chatpdf.com) – Free plan available  
+- [Humata](https://www.humata.ai) – Free plan available  
+- [PDF.ai](https://pdf.ai) – Free plan available  
+- [Lateral](https://www.lateral.io) – Free plan available  
 - [Noteable](https://www.noteable.io) – Free  
-- [ChatPDF](https://www.chatpdf.com) – $5/month (Free plan available)  
-- [Humata](https://www.humata.ai) – $15/month (Free plan available)  
-- [Lateral](https://www.lateral.io) – €14.99/month (Free plan available)  
-- [PDF.ai](https://pdf.ai) – $9.99/month (Free plan available)  
-- [SciSummary](https://www.scisummary.com) – $4.99/month  
+- [Anna’s Archive](https://annas-archive.org) – Free  
+- [SciSummary](https://www.scisummary.com) – Free plan available  
 
 ---
 
-## ✍️ Writing & Editing
-
-### AI-Powered Writing Assistants
-- [Jenni](https://www.jenni.ai) – $20/month  
-- [WriteWise](https://www.writewise.ai) – $11.5/month, $95/year  
-- [Paperpal](https://www.paperpal.com) – $11.99/month (Free plan available)  
-- [Yomu](https://yomu.ai) – $7.99/month (Free plan available)  
-- [ProWritingAid](https://prowritingaid.com) – AI-based grammar and style improvement tool
-
----
-
-## 🤖 Generative AI Assistants
-- [ChatGPT](https://chat.openai.com) – $20/month (GPT-4)  
-- [Claude](https://claude.ai) – Free (Claude 3 Opus, Sonnet, Haiku)  
-- [Google Gemini](https://gemini.google.com) – $20/month (Advanced), Free basic  
-- [Microsoft Copilot](https://copilot.microsoft.com) – Copilot & Free Copilot Pro  
-- [Perplexity](https://www.perplexity.ai) – $20/month (Free plan available)  
-- [Deepseek](https://deepseek.com) – AI-powered research and code assistant
+## ✍️ Writing, Editing & Grammar Tools
+- [Jenni AI](https://www.jenni.ai) – Free trial available  
+- [WriteWise](https://www.writewise.ai) – Free plan available  
+- [Paperpal](https://www.paperpal.com) – Free plan available  
+- [Yomu](https://yomu.ai) – Free plan available  
+- [ProWritingAid](https://prowritingaid.com) – Free plan available  
+- [Hemingway Editor](https://hemingwayapp.com) – Free online editor  
 
 ---
 
-## 🎨 Design & Creativity
-
-- [Microsoft Designer](https://designer.microsoft.com) – AI-powered graphic design tool  
-- [Ideogram](https://ideogram.ai) – Text-to-image generation for creative visuals  
-- [LightPDF](https://lightpdf.com) – Online watermark remover, PDF editor, and converter  
+## 🤖 Generative AI & Chat Assistants
+- [ChatGPT](https://chat.openai.com) – Free plan with GPT-3.5  
+- [Claude](https://claude.ai) – Free (Claude 3 models)  
+- [Google Gemini](https://gemini.google.com) – Free basic access  
+- [Microsoft Copilot](https://copilot.microsoft.com) – Free with Microsoft account  
+- [Perplexity AI](https://www.perplexity.ai) – Free plan available  
+- [Deepseek](https://deepseek.com) – Free  
+- [Phind](https://phind.com) – Free research AI for developers  
 
 ---
 
-## 📊 Presentations & Visualization
+## 🎨 Visual Tools (Design, Infographics & Diagrams)
 
-### Presentation Making Tools
-- [Google Slides](https://slides.google.com) – Online presentation software  
-- [Gamma](https://gamma.app) – $9/month (Free plan available)  
-- [Decktopus AI](https://www.decktopus.com) – $4.99/month (Free plan available)  
+### Design & Infographics
+- [Microsoft Designer](https://designer.microsoft.com) – Free with Microsoft account  
+- [Canva](https://www.canva.com) – Free plan available  
+- [Ideogram](https://ideogram.ai) – Free text-to-image AI  
+
+### Mind Mapping & Charts
+- [CiteVis](https://www.citevis.com) – Free trial  
+- [MindMup](https://www.mindmup.com) – Free basic use  
+- [Map This](https://mapthis.ai) – Free plan available  
+
+---
+
+## 📊 Presentations & Reports
+
+### Presentation Tools
+- [Google Slides](https://slides.google.com) – Free  
+- [Gamma](https://gamma.app) – Free plan available  
+- [Decktopus AI](https://www.decktopus.com) – Free plan available  
 - [Naphill AI](https://www.naphill.ai) – Free  
 
-### Mind Mapping & Visual Notes
-- [CiteVis](https://www.citevis.com) – $6.99/month  
-
-### Text to Graphs & Charts
-- [Map This](https://mapthis.ai) – $50/year (Free plan available)
+### Report Automation
+- [Beautiful.ai](https://www.beautiful.ai) – Free trial  
+- [Tome](https://tome.app) – Free plan available  
 
 ---
 
-## 📑 Analysis & Review
+## 🔍 Analysis & Peer Review
 
-- [My RIA](https://myria.ai) – $5.49/month (Free plan available)  
+### Peer Review Support
 - [Peer Reviewer GPT](https://www.peerreviewgpt.com) – Free  
-- [AudioPen](https://audiopen.ai) – $119 for 2 years (Free plan available)  
-- [Julius AI](https://www.julius.ai) – €18.60/month  
+- [My RIA](https://myria.ai) – Free plan available  
+
+### Note-Taking & Voice to Text
+- [AudioPen](https://audiopen.ai) – Free plan available  
+- [Otter.ai](https://otter.ai) – Free plan available  
+- [Whisper by OpenAI](https://github.com/openai/whisper) – Free open-source  
+
+### Data Analysis
+- [Julius AI](https://www.julius.ai) – Free plan available  
+- [ChatCSV](https://www.chatcsv.co) – Free CSV chatbot  
+- [PromptLoop](https://www.promptloop.com) – Free for light usage  
 
 ---
 
-## 📂 Reference Managers
+## 🧰 Automation, Scripting & Productivity
 
-- [Zotero](https://www.zotero.org) – Free (With free storage, $20/year for 6GB)  
+- [Bardeen](https://www.bardeen.ai) – Free plan available  
+- [Zapier](https://zapier.com) – Free plan available  
+- [Notion AI](https://www.notion.so/product/ai) – Free trial included  
+- [Obsidian.md](https://obsidian.md) – Free personal use  
+
+---
+
+## 🧾 Reference & Citation Managers
+
+- [Zotero](https://www.zotero.org) – Free (Open source)  
 - [Mendeley](https://www.mendeley.com) – Free  
-- [Endnote](https://endnote.com) – $119.95/year (Students)  
-- [Paperpile](https://paperpile.com) – $36/year  
+- [Endnote](https://endnote.com) – Paid  
+- [Paperpile](https://paperpile.com) – Free trial  
+- [CiteThisForMe](https://www.citethisforme.com) – Free  
 
 ---
 
-## 🧰 Automation & Video
+## 🎞️ Video & Media Creation
 
-- [Bardeen](https://www.bardeen.ai) – No-code automation  
-- [Pika Labs](https://www.pika.art) – AI video generation from textNo-code workflow automation tool powered by AI.
+- [Pika Labs](https://www.pika.art) – Free access with waitlist  
+- [Runway ML](https://runwayml.com) – Free plan available  
+- [Lumen5](https://www.lumen5.com) – Free plan available  
+- [Synthesia](https://www.synthesia.io) – Free demo available  
 
 
