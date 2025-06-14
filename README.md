@@ -140,10 +140,13 @@ Hi! I'm [**Dr. Alok Tiwari**](https://dr-alok-tiwari.github.io/), Assistant Prof
 ## Japan
 
 
-# Tools :
-# AI Tools for Scientific Research
+# 🔧 AI Tools for Scientific Research (Grouped)
 
-## 🔍 AI-Powered Search Engines
+---
+
+## 📖 Literature Discovery & Mapping
+
+### 🔍 AI-Powered Search Engines
 - [Semantic Scholar](https://www.semanticscholar.org) – Free  
 - [SciSpace](https://typeset.io) – $20/month (Free plan available)  
 - [Consensus](https://consensus.app) – $11.99/month (Free plan available)  
@@ -163,18 +166,22 @@ Hi! I'm [**Dr. Alok Tiwari**](https://dr-alok-tiwari.github.io/), Assistant Prof
 - [Iris AI / In Discovery](https://iris.ai) – Free (Enterprise: $179/month, $1,799/year)  
 - [Keenious](https://www.keenious.com) – €12/month (Free plan available)
 
-## 🗺️ Literature Mapping (Graph-Based)
+### 🗺️ Literature Mapping (Graph-Based)
 - [Research Rabbit](https://www.researchrabbit.ai) – Free  
 - [Litmaps](https://www.litmaps.com) – $7.50/month, $12/year (Free plan available)  
 - [Connected Papers](https://www.connectedpapers.com) – Free  
 - [Inciteful](https://inciteful.xyz) – Free  
 
-## 📚 AI-Powered Reading Assistants
+---
+
+## 🧠 Reading & Research Assistance
+
+### 📚 AI-Powered Reading Assistants
 - [Dimensions](https://www.dimensions.ai) – Free  
 - [Scholarcy](https://www.scholarcy.com) – $8.25/month (Free plan available)  
 - [SciSpace Copilot](https://typeset.io/sci) – $30/month (Free plan available)  
 
-## 💬 Chatting with PDFs
+### 💬 Chatting with PDFs
 - [Anna’s Archive](https://annas-archive.org) – Free  
 - [Noteable](https://www.noteable.io) – Free  
 - [ChatPDF](https://www.chatpdf.com) – $5/month (Free plan available)  
@@ -183,70 +190,74 @@ Hi! I'm [**Dr. Alok Tiwari**](https://dr-alok-tiwari.github.io/), Assistant Prof
 - [PDF.ai](https://pdf.ai) – $9.99/month (Free plan available)  
 - [SciSummary](https://www.scisummary.com) – $4.99/month  
 
-## ✍️ AI-Powered Writing Assistants
+---
+
+## ✍️ Writing & Editing
+
+### AI-Powered Writing Assistants
 - [Jenni](https://www.jenni.ai) – $20/month  
 - [WriteWise](https://www.writewise.ai) – $11.5/month, $95/year  
 - [Paperpal](https://www.paperpal.com) – $11.99/month (Free plan available)  
-- [Yomu](https://yomu.ai) – $7.99/month (Free plan available)
+- [Yomu](https://yomu.ai) – $7.99/month (Free plan available)  
+- [ProWritingAid](https://prowritingaid.com) – AI-based grammar and style improvement tool
 
-## 🧠 Generative AI Assistants
+---
+
+## 🤖 Generative AI Assistants
 - [ChatGPT](https://chat.openai.com) – $20/month (GPT-4)  
 - [Claude](https://claude.ai) – Free (Claude 3 Opus, Sonnet, Haiku)  
 - [Google Gemini](https://gemini.google.com) – $20/month (Advanced), Free basic  
 - [Microsoft Copilot](https://copilot.microsoft.com) – Copilot & Free Copilot Pro  
-- [Perplexity](https://www.perplexity.ai) – $20/month (Free plan available)
+- [Perplexity](https://www.perplexity.ai) – $20/month (Free plan available)  
+- [Deepseek](https://deepseek.com) – AI-powered research and code assistant
 
-## 🧭 Mind Mapping and Visual Notetaking (Not AI-powered)
-- [CiteVis](https://www.citevis.com) – $6.99/month  
+---
 
-## 🎯 Thematic Analysis
-- [My RIA](https://myria.ai) – $5.49/month (Free plan available)
+## 🎨 Design & Creativity
 
-## 🧪 Mock Peer Review
-- [Peer Reviewer GPT](https://www.peerreviewgpt.com) – Free
+- [Microsoft Designer](https://designer.microsoft.com) – AI-powered graphic design tool  
+- [Ideogram](https://ideogram.ai) – Text-to-image generation for creative visuals  
+- [LightPDF](https://lightpdf.com) – Online watermark remover, PDF editor, and converter  
 
-## 🔊 Audio Notes (Voice to Text)
-- [AudioPen](https://audiopen.ai) – $119 for 2 years (Free plan available)
+---
 
-## 📊 Data Analysis
-- [Julius AI](https://www.julius.ai) – €18.60/month
+## 📊 Presentations & Visualization
 
-## 🧑‍🏫 Presentation Making Tools
+### Presentation Making Tools
+- [Google Slides](https://slides.google.com) – Online presentation software  
 - [Gamma](https://gamma.app) – $9/month (Free plan available)  
 - [Decktopus AI](https://www.decktopus.com) – $4.99/month (Free plan available)  
-- [Naphill AI](https://www.naphill.ai) – Free
+- [Naphill AI](https://www.naphill.ai) – Free  
 
-## 🗺️ Text to Graphs and Charts
+### Mind Mapping & Visual Notes
+- [CiteVis](https://www.citevis.com) – $6.99/month  
+
+### Text to Graphs & Charts
 - [Map This](https://mapthis.ai) – $50/year (Free plan available)
 
-## 📁 Reference Managers (Not AI-powered)
+---
+
+## 📑 Analysis & Review
+
+- [My RIA](https://myria.ai) – $5.49/month (Free plan available)  
+- [Peer Reviewer GPT](https://www.peerreviewgpt.com) – Free  
+- [AudioPen](https://audiopen.ai) – $119 for 2 years (Free plan available)  
+- [Julius AI](https://www.julius.ai) – €18.60/month  
+
+---
+
+## 📂 Reference Managers
+
 - [Zotero](https://www.zotero.org) – Free (With free storage, $20/year for 6GB)  
 - [Mendeley](https://www.mendeley.com) – Free  
 - [Endnote](https://endnote.com) – $119.95/year (Students)  
-- [Paperpile](https://paperpile.com) – $36/year
+- [Paperpile](https://paperpile.com) – $36/year  
 
-## 🔬 Research
-- **[Deepseek](https://deepseek.com)** – AI-powered research and code assistant.
+---
 
-## 🧠 Ideogram
-- **[Ideogram](https://ideogram.ai)** – Text-to-image generation for creative visuals.
+## 🧰 Automation & Video
 
-## 🖼️ Watermark Remover
-- **[LightPDF](https://lightpdf.com)** – Online watermark remover, PDF editor, and converter.
-
-## 📊 Presentation
-- **[Google Slides](https://slides.google.com)** – Web-based presentation software by Google.
-
-## 🎞️ Video Generator
-- **[Pika Labs](https://www.pika.art)** – AI video generation from text prompts.
-
-## ✍️ Writing
-- **[ProWritingAid](https://prowritingaid.com)** – AI-based grammar and style improvement tool.
-
-## 🎨 Design
-- **[Microsoft Designer](https://designer.microsoft.com)** – AI-powered graphic design tool by Microsoft.
-
-## ⚙️ Automation
-- **[Bardeen](https://www.bardeen.ai)** – No-code workflow automation tool powered by AI.
+- [Bardeen](https://www.bardeen.ai) – No-code automation  
+- [Pika Labs](https://www.pika.art) – AI video generation from textNo-code workflow automation tool powered by AI.
 
 
