@@ -114,6 +114,7 @@ Hi! I'm [**Dr. Alok Tiwari**](https://dr-alok-tiwari.github.io/), Assistant Prof
 
 ## 2. Machine Learning
 - [ML System Design: 300 Case Studies](https://www.evidentlyai.com/ml-system-design)
+- [The Hundred-Page Machine Learning Book](http://ema.cri-info.cm/wp-content/uploads/2019/07/2019BurkovTheHundred-pageMachineLearning.pdf)
 - [Project-Based Learning](https://github.com/practical-tutorials/project-based-learning)
 - [ML Interviews Book](https://huyenchip.com/ml-interviews-book/)
 - [ML Course](https://mlcourse.ai/book/index.html)
