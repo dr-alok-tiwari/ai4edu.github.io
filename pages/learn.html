@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="AI4EDU Learning Hub — Curated resources for Math, Python, ML, Deep Learning, NLP and Data Science."/>
+  <title>Learning Hub · AI4EDU</title>
+  <link rel="stylesheet" href="../assets/shared.css"/>
+  <style>
+    .topic-tabs {
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+      margin-bottom: 2.5rem;
+    }
+    .tab-btn {
+      font-size: 0.82rem;
+      font-weight: 500;
+      padding: 0.5rem 1.1rem;
+      border-radius: 999px;
+      border: 1px solid var(--rim);
+      background: var(--surface);
+      color: var(--muted);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .tab-btn:hover { background: var(--surface-2); color: var(--text); }
+    .tab-btn.active {
+      background: rgba(79,158,255,0.15);
+      border-color: rgba(79,158,255,0.4);
+      color: var(--electric);
+    }
+    .topic-section { display: none; }
+    .topic-section.active { display: block; }
+
+    .topic-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 0.8rem;
+    }
+    .topic-intro {
+      background: linear-gradient(135deg, rgba(79,158,255,0.1), rgba(0,229,255,0.07));
+      border: 1px solid rgba(79,158,255,0.2);
+      border-radius: var(--radius-md);
+      padding: 1.6rem;
+      margin-bottom: 2rem;
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+    .topic-intro-icon { font-size: 2.5rem; flex-shrink: 0; }
+    .topic-intro h3 { font-family: 'Syne',sans-serif; font-size: 1.2rem; font-weight: 700; color: var(--text); margin-bottom: 0.4rem; }
+    .topic-intro p { font-size: 0.88rem; color: var(--muted); line-height: 1.65; }
+
+    .sub-heading {
+      font-family: 'Syne', sans-serif;
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text);
+      margin: 1.8rem 0 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .sub-heading::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--rim);
+      margin-left: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="site-nav">
+    <div class="container nav-inner">
+      <a href="../index.html" class="nav-brand">
+        <div class="brand-icon">AI</div>
+        <span class="brand-text">AI4<em>EDU</em></span>
+      </a>
+      <button class="nav-hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="learn.html" class="nav-link">Learning Hub</a>
+        <a href="tools.html" class="nav-link">AI Tools</a>
+        <a href="jobs.html" class="nav-link">Job Portals</a>
+        <a href="research.html" class="nav-link">Research</a>
+        <a href="cheatsheets.html" class="nav-link">Cheatsheets</a>
+        <a href="https://dr-alok-tiwari.github.io" target="_blank" class="nav-link nav-cta">Portfolio →</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="page-hero-kicker reveal">Comprehensive Learning Resources</span>
+      <h1 class="page-hero-title reveal d1">The <span>Learning Hub</span></h1>
+      <p class="page-hero-sub reveal d2">From mathematical prerequisites to advanced deep learning — a structured, curated curriculum for your AI journey.</p>
+      <div style="margin-top:1.5rem;" class="reveal d3">
+        <div class="search-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="resourceSearch" class="search-input" placeholder="Search resources, topics, tools…">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="topic-tabs reveal">
+        <button class="tab-btn active" data-tab="prereq">📐 Prerequisites</button>
+        <button class="tab-btn" data-tab="ml">🤖 Machine Learning</button>
+        <button class="tab-btn" data-tab="dl">🧠 Deep Learning</button>
+        <button class="tab-btn" data-tab="nlp">🔤 NLP & LLMs</button>
+        <button class="tab-btn" data-tab="ds">📊 Data Science</button>
+        <button class="tab-btn" data-tab="youtube">▶️ YouTube Channels</button>
+      </div>
+
+      <!-- PREREQUISITES -->
+      <div class="topic-section active" id="tab-prereq">
+        <div class="topic-intro reveal">
+          <div class="topic-intro-icon">📐</div>
+          <div>
+            <h3>Prerequisites — Build Your Foundation</h3>
+            <p>Before diving into ML and AI, you need strong foundations in mathematics, statistics, and programming. These resources cover everything from linear algebra to Python basics.</p>
+          </div>
+        </div>
+
+        <h3 class="sub-heading">🔢 Mathematics</h3>
+        <div class="topic-grid">
+          <div class="link-list">
+            <a href="https://akuli.github.io/math-tutorial/" target="_blank" class="link-item"><span class="link-dot"></span>Math for Programmers<span class="link-arrow">↗</span></a>
+            <a href="https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab" target="_blank" class="link-item"><span class="link-dot"></span>Essence of Linear Algebra (3Blue1Brown)<span class="link-arrow">↗</span></a>
+            <a href="https://www.mathsisfun.com/algebra/scalar-vector-matrix.html" target="_blank" class="link-item"><span class="link-dot"></span>Math is Fun — Vectors & Matrices<span class="link-arrow">↗</span></a>
+            <a href="https://the-learning-machine.com/article/machine-learning/calculus" target="_blank" class="link-item"><span class="link-dot"></span>Calculus for ML<span class="link-arrow">↗</span></a>
+            <a href="https://the-learning-machine.com/article/machine-learning/linear-algebra" target="_blank" class="link-item"><span class="link-dot"></span>Linear Algebra — Part 1<span class="link-arrow">↗</span></a>
+            <a href="https://en.wikibooks.org/wiki/Linear_Algebra" target="_blank" class="link-item"><span class="link-dot"></span>Linear Algebra — Wikibooks<span class="link-arrow">↗</span></a>
+          </div>
+        </div>
+
+        <h3 class="sub-heading">📊 Statistics & Probability</h3>
+        <div class="link-list">
+          <a href="https://www.youtube.com/watch?v=qBigTkBLU6g&list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>Statistics (StatQuest) — YouTube Playlist<span class="link-arrow">↗</span></a>
+          <a href="https://probabilitycourse.com/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>Probability Course — Full Textbook<span class="link-arrow">↗</span></a>
+          <a href="https://seeing-theory.brown.edu/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>Seeing Theory — Visual Statistics (Brown University)<span class="link-arrow">↗</span></a>
+          <a href="https://saylordotorg.github.io/text_introductory-statistics/index.html" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>Introductory Statistics Textbook<span class="link-arrow">↗</span></a>
+          <a href="http://vassarstats.net/textbook/index.html" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>Inferential Statistics — Vassar Stats<span class="link-arrow">↗</span></a>
+        </div>
+
+        <h3 class="sub-heading">🐍 Python</h3>
+        <div class="topic-grid">
+          <div class="link-list">
+            <a href="https://www.python.org/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Python Official<span class="link-arrow">↗</span></a>
+            <a href="https://pandas.pydata.org/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Pandas<span class="link-arrow">↗</span></a>
+            <a href="https://numpy.org/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>NumPy<span class="link-arrow">↗</span></a>
+            <a href="https://matplotlib.org/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Matplotlib<span class="link-arrow">↗</span></a>
+            <a href="https://seaborn.pydata.org/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Seaborn<span class="link-arrow">↗</span></a>
+            <a href="https://scikit-learn.org/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Scikit-learn<span class="link-arrow">↗</span></a>
+          </div>
+          <div class="link-list">
+            <a href="https://www.tensorflow.org/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>TensorFlow<span class="link-arrow">↗</span></a>
+            <a href="https://keras.io/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Keras<span class="link-arrow">↗</span></a>
+            <a href="https://pytorch.org/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>PyTorch<span class="link-arrow">↗</span></a>
+            <a href="https://jupyter.org/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Jupyter Notebook<span class="link-arrow">↗</span></a>
+            <a href="https://github.com/Asabeneh/30-Days-Of-Python" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>30 Days of Python — GitHub<span class="link-arrow">↗</span></a>
+            <a href="https://learnxinyminutes.com/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Learn X in Y Minutes<span class="link-arrow">↗</span></a>
+          </div>
+        </div>
+
+        <h3 class="sub-heading">📈 R Language</h3>
+        <div class="link-list">
+          <a href="https://www.r-project.org/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--amber)"></span>R Official<span class="link-arrow">↗</span></a>
+          <a href="https://github.com/swirldev/swirl_courses#swirl-courses" target="_blank" class="link-item"><span class="link-dot" style="background:var(--amber)"></span>Swirl Interactive R Courses<span class="link-arrow">↗</span></a>
+          <a href="https://rstudio.github.io/learnr/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--amber)"></span>Learnr — RStudio<span class="link-arrow">↗</span></a>
+          <a href="https://learning.edx.org/course/course-v1:HarvardX+PH125.1x+1T2024/home" target="_blank" class="link-item"><span class="link-dot" style="background:var(--amber)"></span>Data Science: R Basics — HarvardX<span class="link-arrow">↗</span></a>
+        </div>
+
+        <h3 class="sub-heading">🗄️ SQL</h3>
+        <div class="link-list">
+          <a href="https://www.w3schools.com/sql/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--rose)"></span>W3Schools SQL Tutorial<span class="link-arrow">↗</span></a>
+          <a href="https://sqlbolt.com/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--rose)"></span>SQL Bolt — Interactive Lessons<span class="link-arrow">↗</span></a>
+          <a href="https://sqlzoo.net/wiki/SQL_Tutorial" target="_blank" class="link-item"><span class="link-dot" style="background:var(--rose)"></span>SQL Zoo<span class="link-arrow">↗</span></a>
+        </div>
+      </div>
+
+      <!-- ML -->
+      <div class="topic-section" id="tab-ml">
+        <div class="topic-intro reveal">
+          <div class="topic-intro-icon">🤖</div>
+          <div>
+            <h3>Machine Learning — Algorithms to Applications</h3>
+            <p>From core ML theory to production-level system design. Includes curated textbooks, Harvard courses, GitHub repositories, and healthcare-specific ML resources.</p>
+          </div>
+        </div>
+        <div class="link-list">
+          <a href="http://ema.cri-info.cm/wp-content/uploads/2019/07/2019BurkovTheHundred-pageMachineLearning.pdf" target="_blank" class="link-item"><span class="link-dot"></span>The Hundred-Page Machine Learning Book — Burkov<span class="link-arrow">↗</span></a>
+          <a href="https://www.evidentlyai.com/ml-system-design" target="_blank" class="link-item"><span class="link-dot"></span>ML System Design — 300 Case Studies<span class="link-arrow">↗</span></a>
+          <a href="https://huyenchip.com/ml-interviews-book/" target="_blank" class="link-item"><span class="link-dot"></span>ML Interviews Book — Chip Huyen<span class="link-arrow">↗</span></a>
+          <a href="https://mlcourse.ai/book/index.html" target="_blank" class="link-item"><span class="link-dot"></span>Open ML Course — mlcourse.ai<span class="link-arrow">↗</span></a>
+          <a href="https://madewithml.com/#foundations" target="_blank" class="link-item"><span class="link-dot"></span>Made with ML — Foundations<span class="link-arrow">↗</span></a>
+          <a href="https://www.edx.org/learn/machine-learning/harvard-university-data-science-machine-learning" target="_blank" class="link-item"><span class="link-dot"></span>HarvardX: Machine Learning Course<span class="link-arrow">↗</span></a>
+          <a href="https://github.com/GokuMohandas/Made-With-ML" target="_blank" class="link-item"><span class="link-dot"></span>Made With ML — GitHub Repository<span class="link-arrow">↗</span></a>
+          <a href="https://github.com/josephmisiti/awesome-machine-learning" target="_blank" class="link-item"><span class="link-dot"></span>Awesome Machine Learning — GitHub<span class="link-arrow">↗</span></a>
+          <a href="https://ocw.mit.edu/courses/6-s897-machine-learning-for-healthcare-spring-2019/pages/lecture-notes/" target="_blank" class="link-item"><span class="link-dot"></span>MIT: ML for Healthcare — OCW<span class="link-arrow">↗</span></a>
+          <a href="https://github.com/practical-tutorials/project-based-learning" target="_blank" class="link-item"><span class="link-dot"></span>Project-Based ML Learning — GitHub<span class="link-arrow">↗</span></a>
+        </div>
+      </div>
+
+      <!-- DL -->
+      <div class="topic-section" id="tab-dl">
+        <div class="topic-intro reveal">
+          <div class="topic-intro-icon">🧠</div>
+          <div>
+            <h3>Deep Learning — From CNNs to Transformers</h3>
+            <p>Comprehensive courses and repositories covering convolutional networks, recurrent networks, computer vision, and modern deep learning architectures.</p>
+          </div>
+        </div>
+        <div class="link-list">
+          <a href="https://course.fast.ai/Lessons/lesson1.html" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>FastAI Practical Deep Learning Course<span class="link-arrow">↗</span></a>
+          <a href="https://cs231n.github.io/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>CS231n — CNNs for Visual Recognition (Stanford)<span class="link-arrow">↗</span></a>
+          <a href="https://github.com/kmario23/deep-learning-drizzle" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>Deep Learning Drizzle — GitHub<span class="link-arrow">↗</span></a>
+          <a href="https://deep-learning-drizzle.github.io/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>Deep Learning Resources — Curated Site<span class="link-arrow">↗</span></a>
+        </div>
+      </div>
+
+      <!-- NLP -->
+      <div class="topic-section" id="tab-nlp">
+        <div class="topic-intro reveal">
+          <div class="topic-intro-icon">🔤</div>
+          <div>
+            <h3>NLP, LLMs & Prompt Engineering</h3>
+            <p>From text classification to large language models, generative AI for beginners, and practical prompt engineering guides.</p>
+          </div>
+        </div>
+        <h3 class="sub-heading">🔤 NLP & LLMs</h3>
+        <div class="link-list">
+          <a href="https://llm-chronicles.com/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--cyan)"></span>LLM Chronicles<span class="link-arrow">↗</span></a>
+          <a href="https://github.com/Mooler0410/LLMsPracticalGuide" target="_blank" class="link-item"><span class="link-dot" style="background:var(--cyan)"></span>LLMs Practical Guide — GitHub<span class="link-arrow">↗</span></a>
+        </div>
+        <h3 class="sub-heading">🦜 LangChain & GenAI</h3>
+        <div class="link-list">
+          <a href="https://github.com/microsoft/generative-ai-for-beginners" target="_blank" class="link-item"><span class="link-dot" style="background:var(--amber)"></span>Generative AI for Beginners — Microsoft<span class="link-arrow">↗</span></a>
+          <a href="https://www.promptingguide.ai/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--amber)"></span>Prompt Engineering Guide<span class="link-arrow">↗</span></a>
+        </div>
+      </div>
+
+      <!-- DS -->
+      <div class="topic-section" id="tab-ds">
+        <div class="topic-intro reveal">
+          <div class="topic-intro-icon">📊</div>
+          <div>
+            <h3>Data Science — End-to-End Mastery</h3>
+            <p>Harvard's complete Data Science series plus visualization, probability, wrangling, regression, and more.</p>
+          </div>
+        </div>
+        <div class="link-list">
+          <a href="https://rafalab.dfci.harvard.edu/dsbook/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Introduction to Data Science — Harvard Book<span class="link-arrow">↗</span></a>
+          <a href="https://www.edx.org/learn/data-visualization/harvard-university-data-science-visualization" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>HarvardX: Data Visualization<span class="link-arrow">↗</span></a>
+          <a href="https://edx.org/learn/probability/harvard-university-data-science-probability" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>HarvardX: Probability<span class="link-arrow">↗</span></a>
+          <a href="https://www.edx.org/learn/data-science/harvard-university-data-science-inference-and-modeling" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>HarvardX: Inference & Modeling<span class="link-arrow">↗</span></a>
+          <a href="https://www.edx.org/learn/data-science/harvard-university-data-science-wrangling" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>HarvardX: Data Wrangling<span class="link-arrow">↗</span></a>
+          <a href="https://www.edx.org/learn/data-science/harvard-university-data-science-linear-regression" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>HarvardX: Linear Regression<span class="link-arrow">↗</span></a>
+          <a href="https://www.edx.org/learn/data-science/harvard-university-introduction-to-data-science-with-python" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Intro to Data Science with Python — HarvardX<span class="link-arrow">↗</span></a>
+          <a href="https://github.com/alexeygrigorev/data-science-interviews" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Data Science Interviews — GitHub<span class="link-arrow">↗</span></a>
+        </div>
+      </div>
+
+      <!-- YOUTUBE -->
+      <div class="topic-section" id="tab-youtube">
+        <div class="topic-intro reveal">
+          <div class="topic-intro-icon">▶️</div>
+          <div>
+            <h3>Best YouTube Channels for AI & Data Science</h3>
+            <p>Handpicked educators who make complex concepts accessible, engaging, and free.</p>
+          </div>
+        </div>
+        <div class="res-grid">
+          <div class="res-card reveal d1">
+            <div class="res-card-label">YouTube · Statistics & ML</div>
+            <h4>StatQuest with Josh Starmer</h4>
+            <p>Crystal-clear explanations of statistics and machine learning algorithms — perfect for all levels.</p>
+            <a href="https://youtube.com/@statquest" target="_blank">Visit Channel ↗</a>
+          </div>
+          <div class="res-card reveal d2">
+            <div class="res-card-label">YouTube · ML Practitioner</div>
+            <h4>Daniel Bourke (mrdbourke)</h4>
+            <p>Hands-on ML and deep learning projects, PyTorch walkthroughs, and career advice.</p>
+            <a href="https://www.youtube.com/@mrdbourke/videos" target="_blank">Visit Channel ↗</a>
+          </div>
+          <div class="res-card reveal d3">
+            <div class="res-card-label">YouTube · Data Science</div>
+            <h4>Data Professor</h4>
+            <p>Bioinformatics and data science tutorials, ML web apps, and Python walkthroughs.</p>
+            <a href="https://youtube.com/@dataprofessor" target="_blank">Visit Channel ↗</a>
+          </div>
+          <div class="res-card reveal d4">
+            <div class="res-card-label">YouTube · Python & ML</div>
+            <h4>Sentdex</h4>
+            <p>Python tutorials, financial analysis, deep learning, and real-world projects since 2012.</p>
+            <a href="https://youtube.com/@sentdex" target="_blank">Visit Channel ↗</a>
+          </div>
+          <div class="res-card reveal d1">
+            <div class="res-card-label">YouTube · AI/ML India</div>
+            <h4>Krish Naik</h4>
+            <p>End-to-end ML projects, deployment, MLOps, and interview preparation — hugely popular in India.</p>
+            <a href="https://youtube.com/@krishnaik06" target="_blank">Visit Channel ↗</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <div class="footer-brand">
+            <div class="brand-icon">AI</div>
+            <span style="font-family:'Syne',sans-serif;font-weight:800;">AI4<span style="color:var(--cyan)">EDU</span></span>
+          </div>
+          <p class="footer-desc">Curated by Dr. Alok Tiwari · Goa Institute of Management</p>
+        </div>
+        <div class="footer-links">
+          <a href="learn.html">Learning Hub</a>
+          <a href="tools.html">AI Tools</a>
+          <a href="jobs.html">Job Portals</a>
+          <a href="research.html">Research</a>
+          <a href="cheatsheets.html">Cheatsheets</a>
+        </div>
+        <div class="footer-copy">© <span id="year"></span> Dr. Alok Tiwari · AI4EDU</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/shared.js"></script>
+  <script>
+    // Tab switching
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.topic-section').forEach(s => s.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>

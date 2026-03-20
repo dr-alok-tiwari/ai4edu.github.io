@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cheatsheets · AI4EDU</title>
+  <link rel="stylesheet" href="../assets/shared.css"/>
+  <style>
+    .cs-grid { display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.2rem; }
+    .cs-card { background:var(--surface);border:1px solid var(--rim);border-radius:var(--radius-md);padding:1.5rem;transition:transform 0.25s var(--ease),border-color 0.25s; }
+    .cs-card:hover { transform:translateY(-3px);border-color:var(--rim-2); }
+    .cs-card-head { display:flex;align-items:center;gap:0.6rem;margin-bottom:1rem; }
+    .cs-icon { width:36px;height:36px;border-radius:10px;display:grid;place-items:center;font-size:1rem;flex-shrink:0; }
+    .cs-card-head h4 { font-family:'Syne',sans-serif;font-size:0.95rem;font-weight:700;color:var(--text); }
+  </style>
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="container nav-inner">
+      <a href="../index.html" class="nav-brand"><div class="brand-icon">AI</div><span class="brand-text">AI4<em>EDU</em></span></a>
+      <button class="nav-hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="learn.html" class="nav-link">Learning Hub</a>
+        <a href="tools.html" class="nav-link">AI Tools</a>
+        <a href="jobs.html" class="nav-link">Job Portals</a>
+        <a href="research.html" class="nav-link">Research</a>
+        <a href="cheatsheets.html" class="nav-link">Cheatsheets</a>
+        <a href="https://dr-alok-tiwari.github.io" target="_blank" class="nav-link nav-cta">Portfolio →</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="page-hero-kicker reveal">Quick Reference Guides</span>
+      <h1 class="page-hero-title reveal d1">Cheatsheet <span>Library</span></h1>
+      <p class="page-hero-sub reveal d2">Fast-access reference guides for Python, SQL, R, ML, Deep Learning, Big Data, Cloud, Shell scripting, and more — all in one place.</p>
+      <div style="margin-top:1.5rem;" class="reveal d3">
+        <div class="search-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="resourceSearch" class="search-input" placeholder="Search cheatsheets…">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="cs-grid">
+
+        <!-- Prerequisites -->
+        <div class="cs-card reveal d1">
+          <div class="cs-card-head">
+            <div class="cs-icon" style="background:rgba(79,158,255,0.15);">📐</div>
+            <h4>Prerequisites & Math</h4>
+          </div>
+          <div class="link-list">
+            <a href="https://www.codecademy.com/resources/cheatsheets/all" target="_blank" class="link-item"><span class="link-dot"></span>Codecademy Cheat Sheet<span class="link-arrow">↗</span></a>
+            <a href="https://bigocheatsheet.io/?dark-mode=true" target="_blank" class="link-item"><span class="link-dot"></span>Big-O Cheat Sheet<span class="link-arrow">↗</span></a>
+            <a href="https://cooervo.github.io/Algorithms-DataStructures-BigONotation/" target="_blank" class="link-item"><span class="link-dot"></span>Algorithms & Data Structures<span class="link-arrow">↗</span></a>
+            <a href="https://tutorial.math.lamar.edu/Extras/CheatSheets_Tables.aspx#CalcSheet" target="_blank" class="link-item"><span class="link-dot"></span>Paul's Online Math Notes<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/gty6XpVF" target="_blank" class="link-item"><span class="link-dot"></span>Linear Algebra Cheatsheet<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/gjhsmsxu" target="_blank" class="link-item"><span class="link-dot"></span>Calculus Cheatsheet<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/gvnWCphc" target="_blank" class="link-item"><span class="link-dot"></span>Probability Cheatsheet<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/grNXVQh5" target="_blank" class="link-item"><span class="link-dot"></span>Statistical Inference<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/gQ52Jd_J" target="_blank" class="link-item"><span class="link-dot"></span>Data Visualization<span class="link-arrow">↗</span></a>
+            <a href="https://bit.ly/3TiMibP" target="_blank" class="link-item"><span class="link-dot"></span>Data Wrangling<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/g7cPmgHQ" target="_blank" class="link-item"><span class="link-dot"></span>Jupyter Notebook Cheatsheet<span class="link-arrow">↗</span></a>
+          </div>
+        </div>
+
+        <!-- Python -->
+        <div class="cs-card reveal d2">
+          <div class="cs-card-head">
+            <div class="cs-icon" style="background:rgba(0,214,143,0.15);">🐍</div>
+            <h4>Python Libraries</h4>
+          </div>
+          <div class="link-list">
+            <a href="https://www.pythoncheatsheet.org/cheatsheet/basics" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Python Basics Cheatsheet<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/g4yTJ7CP" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Pandas<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/gg9Uw-km" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>NumPy<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/gahrGicD" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Matplotlib<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/gcu4UKpw" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Seaborn<span class="link-arrow">↗</span></a>
+            <a href="https://www.kaggle.com/code/themlphdstudent/cheat-sheet-seaborn-charts/notebook" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Seaborn Charts — Kaggle<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/gGfkNu5i" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Scikit-Learn<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/g3fw3uRV" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>TensorFlow<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/gfPTfbgg" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Keras<span class="link-arrow">↗</span></a>
+            <a href="https://bit.ly/3lnsiIz" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>PyTorch<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/gNnq5QXz" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>PyTorch Lightning<span class="link-arrow">↗</span></a>
+            <a href="https://ipgp.github.io/scientific_python_cheat_sheet/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Scientific Python<span class="link-arrow">↗</span></a>
+          </div>
+        </div>
+
+        <!-- SQL -->
+        <div class="cs-card reveal d3">
+          <div class="cs-card-head">
+            <div class="cs-icon" style="background:rgba(255,95,135,0.15);">🗄️</div>
+            <h4>SQL & Databases</h4>
+          </div>
+          <div class="link-list">
+            <a href="https://www.sqltutorial.org/sql-cheat-sheet/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--rose)"></span>SQL Tutorial Cheatsheet<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/gyierV3f" target="_blank" class="link-item"><span class="link-dot" style="background:var(--rose)"></span>SQL Guide<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/gzfiW7zB" target="_blank" class="link-item"><span class="link-dot" style="background:var(--rose)"></span>PostgreSQL Cheatsheet<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/g4JnPVTe" target="_blank" class="link-item"><span class="link-dot" style="background:var(--rose)"></span>MySQL Cheatsheet<span class="link-arrow">↗</span></a>
+            <a href="https://mrcet.com/downloads/digital_notes/ECE/III%20Year/DATABASE%20MANAGEMENT%20SYSTEMS.pdf" target="_blank" class="link-item"><span class="link-dot" style="background:var(--rose)"></span>DBMS Notes PDF<span class="link-arrow">↗</span></a>
+          </div>
+        </div>
+
+        <!-- R -->
+        <div class="cs-card reveal d4">
+          <div class="cs-card-head">
+            <div class="cs-icon" style="background:rgba(255,184,48,0.15);">📈</div>
+            <h4>R Language</h4>
+          </div>
+          <div class="link-list">
+            <a href="https://lnkd.in/gEgJ6A8j" target="_blank" class="link-item"><span class="link-dot" style="background:var(--amber)"></span>R Cheatsheet<span class="link-arrow">↗</span></a>
+          </div>
+        </div>
+
+        <!-- AI/ML/DL -->
+        <div class="cs-card reveal d1">
+          <div class="cs-card-head">
+            <div class="cs-icon" style="background:rgba(181,122,255,0.15);">🤖</div>
+            <h4>AI · ML · Deep Learning · NLP</h4>
+          </div>
+          <div class="link-list">
+            <a href="https://bit.ly/3mZ5Wh3" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>Machine Learning Cheatsheet<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/gVbSPae2" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>Deep Learning Cheatsheet<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/gThs2AAp" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>Neural Network Cheatsheet<span class="link-arrow">↗</span></a>
+            <a href="https://bit.ly/3Fvursm" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>NLP Cheatsheet<span class="link-arrow">↗</span></a>
+            <a href="https://bit.ly/3Fvuep4" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>Time Series Cheatsheet<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/gawB_SC9" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>OpenAI GPT-3 Docs<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/gtCGZvX8" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>GPT-3 API Reference<span class="link-arrow">↗</span></a>
+          </div>
+        </div>
+
+        <!-- Shell & Git -->
+        <div class="cs-card reveal d2">
+          <div class="cs-card-head">
+            <div class="cs-icon" style="background:rgba(0,229,255,0.12);">🖥️</div>
+            <h4>Shell, Linux & Git</h4>
+          </div>
+          <div class="link-list">
+            <a href="https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--cyan)"></span>Linux Commands Cheatsheet<span class="link-arrow">↗</span></a>
+            <a href="https://bit.ly/3ZUfwA8" target="_blank" class="link-item"><span class="link-dot" style="background:var(--cyan)"></span>Unix/Linux Permissions<span class="link-arrow">↗</span></a>
+            <a href="https://bit.ly/3FtcTgw" target="_blank" class="link-item"><span class="link-dot" style="background:var(--cyan)"></span>Linux Command Line<span class="link-arrow">↗</span></a>
+            <a href="https://intellipaat.com/blog/tutorial/devops-tutorial/git-cheat-sheet/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--cyan)"></span>GitHub Cheatsheet<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/gyzhztvH" target="_blank" class="link-item"><span class="link-dot" style="background:var(--cyan)"></span>Git Cheatsheet<span class="link-arrow">↗</span></a>
+            <a href="https://blog.hartleybrody.com/web-scraping-cheat-sheet/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--cyan)"></span>Web Scraping Cheatsheet<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/gE9kZTZW" target="_blank" class="link-item"><span class="link-dot" style="background:var(--cyan)"></span>Regex Cheat Sheet<span class="link-arrow">↗</span></a>
+          </div>
+        </div>
+
+        <!-- Big Data & Cloud -->
+        <div class="cs-card reveal d3">
+          <div class="cs-card-head">
+            <div class="cs-icon" style="background:rgba(255,184,48,0.13);">☁️</div>
+            <h4>Big Data & Cloud</h4>
+          </div>
+          <div class="link-list">
+            <a href="https://bit.ly/3ZQWMS1" target="_blank" class="link-item"><span class="link-dot" style="background:var(--amber)"></span>AWS Cheatsheet<span class="link-arrow">↗</span></a>
+            <a href="https://bit.ly/42f4N4V" target="_blank" class="link-item"><span class="link-dot" style="background:var(--amber)"></span>Azure Cheatsheet<span class="link-arrow">↗</span></a>
+            <a href="https://bit.ly/3JJADzv" target="_blank" class="link-item"><span class="link-dot" style="background:var(--amber)"></span>Google Cloud Cheatsheet<span class="link-arrow">↗</span></a>
+            <a href="https://bit.ly/3Lt2zJe" target="_blank" class="link-item"><span class="link-dot" style="background:var(--amber)"></span>Docker<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/gjXCT7Mb" target="_blank" class="link-item"><span class="link-dot" style="background:var(--amber)"></span>Kubernetes<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/ge7Rj-Yr" target="_blank" class="link-item"><span class="link-dot" style="background:var(--amber)"></span>Apache Spark<span class="link-arrow">↗</span></a>
+            <a href="https://bit.ly/3Lq34DR" target="_blank" class="link-item"><span class="link-dot" style="background:var(--amber)"></span>Hadoop<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/gTHUYckq" target="_blank" class="link-item"><span class="link-dot" style="background:var(--amber)"></span>PySpark RDD<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/ggSy4AqJ" target="_blank" class="link-item"><span class="link-dot" style="background:var(--amber)"></span>PySpark MLlib<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/gHc4F4ER" target="_blank" class="link-item"><span class="link-dot" style="background:var(--amber)"></span>MongoDB<span class="link-arrow">↗</span></a>
+          </div>
+        </div>
+
+        <!-- Web & Dev -->
+        <div class="cs-card reveal d4">
+          <div class="cs-card-head">
+            <div class="cs-icon" style="background:rgba(0,214,143,0.13);">🌐</div>
+            <h4>Web, Dev & Misc</h4>
+          </div>
+          <div class="link-list">
+            <a href="https://lnkd.in/gGzbSTgU" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Flask<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/grZcWz8y" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Django<span class="link-arrow">↗</span></a>
+            <a href="https://lnkd.in/gHi26Uk2" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Python String Formatting<span class="link-arrow">↗</span></a>
+            <a href="https://www.datacamp.com/tutorial/data-visualisation-tableau" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Tableau Data Viz<span class="link-arrow">↗</span></a>
+            <a href="https://www.greenteapress.com/thinkpython/thinkCSpy.pdf" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Think Python — Part 1 (PDF)<span class="link-arrow">↗</span></a>
+            <a href="http://openbookproject.net/thinkcs/python/english3e/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Think Python — Part 2<span class="link-arrow">↗</span></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div><div class="footer-brand"><div class="brand-icon">AI</div><span style="font-family:'Syne',sans-serif;font-weight:800;">AI4<span style="color:var(--cyan)">EDU</span></span></div><p class="footer-desc">Curated by Dr. Alok Tiwari · GIM Goa</p></div>
+        <div class="footer-links"><a href="learn.html">Learning Hub</a><a href="tools.html">AI Tools</a><a href="jobs.html">Job Portals</a><a href="research.html">Research</a></div>
+        <div class="footer-copy">© <span id="year"></span> Dr. Alok Tiwari · AI4EDU</div>
+      </div>
+    </div>
+  </footer>
+  <script src="../assets/shared.js"></script>
+</body>
+</html>

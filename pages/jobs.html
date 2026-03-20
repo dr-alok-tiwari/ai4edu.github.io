@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Job Portals · AI4EDU</title>
+  <link rel="stylesheet" href="../assets/shared.css"/>
+  <style>
+    .job-tabs { display:flex;gap:0.4rem;flex-wrap:wrap;margin-bottom:2.5rem; }
+    .job-tab { font-size:0.82rem;font-weight:500;padding:0.55rem 1.2rem;border-radius:999px;border:1px solid var(--rim);background:var(--surface);color:var(--muted);cursor:pointer;transition:all 0.2s; }
+    .job-tab:hover { background:var(--surface-2);color:var(--text); }
+    .job-tab.active { background:rgba(255,184,48,0.12);border-color:rgba(255,184,48,0.35);color:var(--amber); }
+    .job-section { display:none; }
+    .job-section.active { display:block; }
+
+    .country-grid { display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.2rem; }
+    .country-card { background:var(--surface);border:1px solid var(--rim);border-radius:var(--radius-md);padding:1.4rem; }
+    .country-card-header { display:flex;align-items:center;gap:0.6rem;margin-bottom:0.9rem; }
+    .country-flag { font-size:1.4rem; }
+    .country-name { font-family:'Syne',sans-serif;font-size:0.95rem;font-weight:700;color:var(--text); }
+    .country-card .link-list { gap:0.3rem; }
+    .country-card .link-item { padding:0.42rem 0.65rem;font-size:0.82rem; }
+
+    .global-hero { background:linear-gradient(135deg,rgba(255,184,48,0.1),rgba(79,158,255,0.08));border:1px solid rgba(255,184,48,0.2);border-radius:var(--radius-lg);padding:2rem;margin-bottom:2rem; }
+    .global-hero h3 { font-family:'Syne',sans-serif;font-size:1.1rem;font-weight:700;color:var(--text);margin-bottom:0.4rem; }
+    .global-hero p { font-size:0.85rem;color:var(--muted);margin-bottom:1rem; }
+  </style>
+</head>
+<body>
+
+  <nav class="site-nav">
+    <div class="container nav-inner">
+      <a href="../index.html" class="nav-brand"><div class="brand-icon">AI</div><span class="brand-text">AI4<em>EDU</em></span></a>
+      <button class="nav-hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="learn.html" class="nav-link">Learning Hub</a>
+        <a href="tools.html" class="nav-link">AI Tools</a>
+        <a href="jobs.html" class="nav-link">Job Portals</a>
+        <a href="research.html" class="nav-link">Research</a>
+        <a href="cheatsheets.html" class="nav-link">Cheatsheets</a>
+        <a href="https://dr-alok-tiwari.github.io" target="_blank" class="nav-link nav-cta">Portfolio →</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="page-hero-kicker reveal">Career Opportunities</span>
+      <h1 class="page-hero-title reveal d1">Global <span>Job Portals</span></h1>
+      <p class="page-hero-sub reveal d2">Curated job boards for regular roles, postdoctoral positions, and remote work — across 20+ countries and global platforms.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="job-tabs reveal">
+        <button class="job-tab active" data-tab="regular">💼 Regular Jobs</button>
+        <button class="job-tab" data-tab="postdoc">🧑‍🔬 Postdoc Positions</button>
+        <button class="job-tab" data-tab="remote">🌐 Remote Work</button>
+      </div>
+
+      <!-- REGULAR JOBS -->
+      <div class="job-section active" id="tab-regular">
+        <div class="global-hero reveal">
+          <h3>🌐 Global Platforms — Start Here</h3>
+          <p>These platforms cover jobs across all countries and industries. Use them alongside country-specific boards for best results.</p>
+          <div class="link-list">
+            <a href="https://www.linkedin.com/jobs/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--electric)"></span>LinkedIn Jobs — Global Leader<span class="link-arrow">↗</span></a>
+            <a href="https://www.indeed.com/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--electric)"></span>Indeed — Worldwide Coverage<span class="link-arrow">↗</span></a>
+            <a href="https://www.glassdoor.com/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--electric)"></span>Glassdoor — Salary + Reviews<span class="link-arrow">↗</span></a>
+            <a href="https://www.monster.com/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--electric)"></span>Monster — Global<span class="link-arrow">↗</span></a>
+            <a href="https://www.careerjet.com/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--electric)"></span>CareerJet<span class="link-arrow">↗</span></a>
+            <a href="https://jooble.org/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--electric)"></span>Jooble<span class="link-arrow">↗</span></a>
+          </div>
+        </div>
+
+        <div class="country-grid">
+          <div class="country-card reveal d1">
+            <div class="country-card-header"><span class="country-flag">🇮🇳</span><span class="country-name">India</span></div>
+            <div class="link-list">
+              <a href="https://www.naukri.com/" target="_blank" class="link-item"><span class="link-dot"></span>Naukri.com<span class="link-arrow">↗</span></a>
+              <a href="https://in.linkedin.com/jobs" target="_blank" class="link-item"><span class="link-dot"></span>LinkedIn India<span class="link-arrow">↗</span></a>
+              <a href="https://www.indeed.co.in/" target="_blank" class="link-item"><span class="link-dot"></span>Indeed India<span class="link-arrow">↗</span></a>
+              <a href="https://www.shine.com/" target="_blank" class="link-item"><span class="link-dot"></span>Shine<span class="link-arrow">↗</span></a>
+              <a href="https://www.timesjobs.com/" target="_blank" class="link-item"><span class="link-dot"></span>TimesJobs<span class="link-arrow">↗</span></a>
+              <a href="https://www.foundit.in/" target="_blank" class="link-item"><span class="link-dot"></span>Foundit (Monster India)<span class="link-arrow">↗</span></a>
+            </div>
+          </div>
+          <div class="country-card reveal d2">
+            <div class="country-card-header"><span class="country-flag">🇺🇸</span><span class="country-name">United States</span></div>
+            <div class="link-list">
+              <a href="https://www.linkedin.com/jobs/" target="_blank" class="link-item"><span class="link-dot"></span>LinkedIn Jobs<span class="link-arrow">↗</span></a>
+              <a href="https://www.indeed.com/" target="_blank" class="link-item"><span class="link-dot"></span>Indeed USA<span class="link-arrow">↗</span></a>
+              <a href="https://www.glassdoor.com/" target="_blank" class="link-item"><span class="link-dot"></span>Glassdoor<span class="link-arrow">↗</span></a>
+              <a href="https://www.usajobs.gov/" target="_blank" class="link-item"><span class="link-dot"></span>USAJobs (Federal)<span class="link-arrow">↗</span></a>
+              <a href="https://www.simplyhired.com/" target="_blank" class="link-item"><span class="link-dot"></span>SimplyHired<span class="link-arrow">↗</span></a>
+            </div>
+          </div>
+          <div class="country-card reveal d3">
+            <div class="country-card-header"><span class="country-flag">🇬🇧</span><span class="country-name">United Kingdom</span></div>
+            <div class="link-list">
+              <a href="https://uk.indeed.com/" target="_blank" class="link-item"><span class="link-dot"></span>Indeed UK<span class="link-arrow">↗</span></a>
+              <a href="https://www.reed.co.uk/" target="_blank" class="link-item"><span class="link-dot"></span>Reed<span class="link-arrow">↗</span></a>
+              <a href="https://www.totaljobs.com/" target="_blank" class="link-item"><span class="link-dot"></span>Totaljobs<span class="link-arrow">↗</span></a>
+              <a href="https://www.cv-library.co.uk/" target="_blank" class="link-item"><span class="link-dot"></span>CV-Library<span class="link-arrow">↗</span></a>
+              <a href="https://jobs.theguardian.com/" target="_blank" class="link-item"><span class="link-dot"></span>Guardian Jobs<span class="link-arrow">↗</span></a>
+            </div>
+          </div>
+          <div class="country-card reveal d4">
+            <div class="country-card-header"><span class="country-flag">🇦🇺</span><span class="country-name">Australia</span></div>
+            <div class="link-list">
+              <a href="https://www.seek.com.au/" target="_blank" class="link-item"><span class="link-dot"></span>Seek<span class="link-arrow">↗</span></a>
+              <a href="https://au.indeed.com/" target="_blank" class="link-item"><span class="link-dot"></span>Indeed Australia<span class="link-arrow">↗</span></a>
+              <a href="https://au.jora.com/" target="_blank" class="link-item"><span class="link-dot"></span>Jora<span class="link-arrow">↗</span></a>
+              <a href="https://www.careerone.com.au/" target="_blank" class="link-item"><span class="link-dot"></span>CareerOne<span class="link-arrow">↗</span></a>
+            </div>
+          </div>
+          <div class="country-card reveal d1">
+            <div class="country-card-header"><span class="country-flag">🇩🇪</span><span class="country-name">Germany</span></div>
+            <div class="link-list">
+              <a href="https://www.stepstone.de/" target="_blank" class="link-item"><span class="link-dot"></span>StepStone Germany<span class="link-arrow">↗</span></a>
+              <a href="https://www.xing.com/jobs" target="_blank" class="link-item"><span class="link-dot"></span>XING Jobs<span class="link-arrow">↗</span></a>
+              <a href="https://jobboerse.arbeitsagentur.de/" target="_blank" class="link-item"><span class="link-dot"></span>Arbeitsagentur Jobbörse<span class="link-arrow">↗</span></a>
+              <a href="https://de.indeed.com/" target="_blank" class="link-item"><span class="link-dot"></span>Indeed Germany<span class="link-arrow">↗</span></a>
+            </div>
+          </div>
+          <div class="country-card reveal d2">
+            <div class="country-card-header"><span class="country-flag">🇨🇦</span><span class="country-name">Canada</span></div>
+            <div class="link-list">
+              <a href="https://www.jobbank.gc.ca/" target="_blank" class="link-item"><span class="link-dot"></span>Job Bank Canada<span class="link-arrow">↗</span></a>
+              <a href="https://ca.indeed.com/" target="_blank" class="link-item"><span class="link-dot"></span>Indeed Canada<span class="link-arrow">↗</span></a>
+              <a href="https://www.workopolis.com/" target="_blank" class="link-item"><span class="link-dot"></span>Workopolis<span class="link-arrow">↗</span></a>
+              <a href="https://ca.linkedin.com/jobs" target="_blank" class="link-item"><span class="link-dot"></span>LinkedIn Canada<span class="link-arrow">↗</span></a>
+            </div>
+          </div>
+          <div class="country-card reveal d3">
+            <div class="country-card-header"><span class="country-flag">🇸🇬</span><span class="country-name">Singapore</span></div>
+            <div class="link-list">
+              <a href="https://www.jobstreet.com.sg/" target="_blank" class="link-item"><span class="link-dot"></span>JobStreet Singapore<span class="link-arrow">↗</span></a>
+              <a href="https://www.mycareersfuture.gov.sg/" target="_blank" class="link-item"><span class="link-dot"></span>MyCareersFuture (Gov)<span class="link-arrow">↗</span></a>
+              <a href="https://www.indeed.com.sg/" target="_blank" class="link-item"><span class="link-dot"></span>Indeed Singapore<span class="link-arrow">↗</span></a>
+            </div>
+          </div>
+          <div class="country-card reveal d4">
+            <div class="country-card-header"><span class="country-flag">🇦🇪</span><span class="country-name">UAE / Gulf</span></div>
+            <div class="link-list">
+              <a href="https://www.bayt.com/" target="_blank" class="link-item"><span class="link-dot"></span>Bayt<span class="link-arrow">↗</span></a>
+              <a href="https://www.naukrigulf.com/" target="_blank" class="link-item"><span class="link-dot"></span>NaukriGulf<span class="link-arrow">↗</span></a>
+              <a href="https://www.gulftalent.com/" target="_blank" class="link-item"><span class="link-dot"></span>GulfTalent<span class="link-arrow">↗</span></a>
+              <a href="https://dubai.dubizzle.com/jobs/" target="_blank" class="link-item"><span class="link-dot"></span>Dubizzle Jobs<span class="link-arrow">↗</span></a>
+            </div>
+          </div>
+          <div class="country-card reveal d1">
+            <div class="country-card-header"><span class="country-flag">🇳🇱</span><span class="country-name">Netherlands</span></div>
+            <div class="link-list">
+              <a href="https://www.nationalevacaturebank.nl/" target="_blank" class="link-item"><span class="link-dot"></span>Nationale Vacaturebank<span class="link-arrow">↗</span></a>
+              <a href="https://www.intermediair.nl/" target="_blank" class="link-item"><span class="link-dot"></span>Intermediair<span class="link-arrow">↗</span></a>
+              <a href="https://nl.indeed.com/" target="_blank" class="link-item"><span class="link-dot"></span>Indeed Netherlands<span class="link-arrow">↗</span></a>
+            </div>
+          </div>
+          <div class="country-card reveal d2">
+            <div class="country-card-header"><span class="country-flag">🇫🇷</span><span class="country-name">France</span></div>
+            <div class="link-list">
+              <a href="https://www.pole-emploi.fr/" target="_blank" class="link-item"><span class="link-dot"></span>Pole Emploi<span class="link-arrow">↗</span></a>
+              <a href="https://www.apec.fr/" target="_blank" class="link-item"><span class="link-dot"></span>Apec<span class="link-arrow">↗</span></a>
+              <a href="https://www.indeed.fr/" target="_blank" class="link-item"><span class="link-dot"></span>Indeed France<span class="link-arrow">↗</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- POSTDOC -->
+      <div class="job-section" id="tab-postdoc">
+        <div class="global-hero reveal" style="background:linear-gradient(135deg,rgba(181,122,255,0.1),rgba(79,158,255,0.07));border-color:rgba(181,122,255,0.25);">
+          <h3>🌐 Global Postdoc Portals</h3>
+          <p>These platforms aggregate postdoctoral opportunities worldwide across all disciplines.</p>
+          <div class="link-list">
+            <a href="https://www.nature.com/naturecareers" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>Nature Careers — Global Postdoc & Academic<span class="link-arrow">↗</span></a>
+            <a href="https://jobs.sciencecareers.org/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>Science Careers (AAAS)<span class="link-arrow">↗</span></a>
+            <a href="https://academicpositions.com/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>Academic Positions — Worldwide<span class="link-arrow">↗</span></a>
+            <a href="https://euraxess.ec.europa.eu/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>Euraxess — EU-wide Researcher Mobility<span class="link-arrow">↗</span></a>
+            <a href="https://postdocjobs.com/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>PostdocJobs.com — Dedicated Global Listing<span class="link-arrow">↗</span></a>
+            <a href="https://www.findapostdoc.com/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>FindAPostDoc — Academic Worldwide<span class="link-arrow">↗</span></a>
+            <a href="https://www.timeshighereducation.com/unijobs/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>Times Higher Education Jobs<span class="link-arrow">↗</span></a>
+            <a href="https://www.researchgate.net/jobs" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>ResearchGate Jobs<span class="link-arrow">↗</span></a>
+          </div>
+        </div>
+
+        <div class="country-grid">
+          <div class="country-card reveal d1">
+            <div class="country-card-header"><span class="country-flag">🇺🇸</span><span class="country-name">United States</span></div>
+            <div class="link-list">
+              <a href="https://chroniclevitae.com/job_search" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>Chronicle of Higher Education<span class="link-arrow">↗</span></a>
+              <a href="https://www.higheredjobs.com/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>HigherEdJobs<span class="link-arrow">↗</span></a>
+              <a href="https://www.training.nih.gov/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>NIH Postdoc Fellowships<span class="link-arrow">↗</span></a>
+              <a href="https://www.nsf.gov/funding/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>NSF Postdoc Programs<span class="link-arrow">↗</span></a>
+            </div>
+          </div>
+          <div class="country-card reveal d2">
+            <div class="country-card-header"><span class="country-flag">🇬🇧</span><span class="country-name">United Kingdom</span></div>
+            <div class="link-list">
+              <a href="https://www.jobs.ac.uk/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>Jobs.ac.uk — UK Academic<span class="link-arrow">↗</span></a>
+              <a href="https://www.findapostdoc.com/search/area-UK/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>FindAPostDoc UK<span class="link-arrow">↗</span></a>
+            </div>
+          </div>
+          <div class="country-card reveal d3">
+            <div class="country-card-header"><span class="country-flag">🇩🇪</span><span class="country-name">Germany</span></div>
+            <div class="link-list">
+              <a href="https://www.academics.com/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>Academics.de<span class="link-arrow">↗</span></a>
+              <a href="https://www.helmholtz.de/en/career/job-vacancies/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>Helmholtz Association<span class="link-arrow">↗</span></a>
+              <a href="https://www.daad.de/en/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>DAAD Postdoc Programs<span class="link-arrow">↗</span></a>
+            </div>
+          </div>
+          <div class="country-card reveal d4">
+            <div class="country-card-header"><span class="country-flag">🇨🇭</span><span class="country-name">Switzerland</span></div>
+            <div class="link-list">
+              <a href="https://www.jobs.ethz.ch/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>ETH Zurich Careers<span class="link-arrow">↗</span></a>
+              <a href="https://recruiting.epfl.ch/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>EPFL Jobs<span class="link-arrow">↗</span></a>
+              <a href="https://www.myscience.ch/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>MyScience.ch<span class="link-arrow">↗</span></a>
+            </div>
+          </div>
+          <div class="country-card reveal d1">
+            <div class="country-card-header"><span class="country-flag">🇸🇬</span><span class="country-name">Singapore</span></div>
+            <div class="link-list">
+              <a href="https://www.a-star.edu.sg/Careers" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>A*STAR Careers<span class="link-arrow">↗</span></a>
+              <a href="https://careers.nus.edu.sg/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>NUS Careers<span class="link-arrow">↗</span></a>
+              <a href="https://www.ntu.edu.sg/about/careers" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>NTU Careers<span class="link-arrow">↗</span></a>
+            </div>
+          </div>
+          <div class="country-card reveal d2">
+            <div class="country-card-header"><span class="country-flag">🇯🇵</span><span class="country-name">Japan</span></div>
+            <div class="link-list">
+              <a href="https://jrecin.jst.go.jp/seek/SeekTop" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>JREC-IN Portal<span class="link-arrow">↗</span></a>
+              <a href="https://www.riken.jp/en/careers/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--violet)"></span>RIKEN Careers<span class="link-arrow">↗</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- REMOTE -->
+      <div class="job-section" id="tab-remote">
+        <div class="global-hero reveal" style="background:linear-gradient(135deg,rgba(0,214,143,0.1),rgba(0,229,255,0.07));border-color:rgba(0,214,143,0.25);">
+          <h3>🌍 Top Remote Job Boards</h3>
+          <p>Work from anywhere — these platforms specialize in fully remote positions across tech and beyond.</p>
+          <div class="link-list">
+            <a href="https://weworkremotely.com/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>We Work Remotely — Largest Remote Community<span class="link-arrow">↗</span></a>
+            <a href="https://remoteok.com/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Remote OK — Tech-Focused<span class="link-arrow">↗</span></a>
+            <a href="https://remotive.io/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Remotive — Global Remote<span class="link-arrow">↗</span></a>
+            <a href="https://www.workingnomads.co/jobs" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Working Nomads — Curated<span class="link-arrow">↗</span></a>
+            <a href="https://remote.co/remote-jobs/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>Remote.co<span class="link-arrow">↗</span></a>
+            <a href="https://www.flexjobs.com/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>FlexJobs — Curated Flexible<span class="link-arrow">↗</span></a>
+            <a href="https://angel.co/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--emerald)"></span>AngelList / Wellfound — Startups<span class="link-arrow">↗</span></a>
+          </div>
+        </div>
+
+        <div class="country-grid">
+          <div class="country-card reveal d1">
+            <div class="country-card-header"><span class="country-flag">💻</span><span class="country-name">Tech & Developer</span></div>
+            <div class="link-list">
+              <a href="https://stackoverflow.com/jobs/remote-developer-jobs" target="_blank" class="link-item"><span class="link-dot" style="background:var(--electric)"></span>Stack Overflow Jobs<span class="link-arrow">↗</span></a>
+              <a href="https://www.turing.com/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--electric)"></span>Turing — Engineering Remote<span class="link-arrow">↗</span></a>
+              <a href="https://www.gun.io/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--electric)"></span>Gun.io — Freelance Dev<span class="link-arrow">↗</span></a>
+            </div>
+          </div>
+          <div class="country-card reveal d2">
+            <div class="country-card-header"><span class="country-flag">💰</span><span class="country-name">Freelancing Platforms</span></div>
+            <div class="link-list">
+              <a href="https://www.upwork.com/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--cyan)"></span>Upwork — Global Marketplace<span class="link-arrow">↗</span></a>
+              <a href="https://www.fiverr.com/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--cyan)"></span>Fiverr<span class="link-arrow">↗</span></a>
+              <a href="https://www.toptal.com/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--cyan)"></span>Toptal — Elite Freelancing<span class="link-arrow">↗</span></a>
+              <a href="https://www.peopleperhour.com/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--cyan)"></span>PeoplePerHour<span class="link-arrow">↗</span></a>
+            </div>
+          </div>
+          <div class="country-card reveal d3">
+            <div class="country-card-header"><span class="country-flag">🎓</span><span class="country-name">Remote Teaching</span></div>
+            <div class="link-list">
+              <a href="https://www.teachaway.com/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--amber)"></span>Teach Away — Online Teaching<span class="link-arrow">↗</span></a>
+              <a href="https://outschool.com/teach" target="_blank" class="link-item"><span class="link-dot" style="background:var(--amber)"></span>Outschool — Teach Live Classes<span class="link-arrow">↗</span></a>
+              <a href="https://preply.com/" target="_blank" class="link-item"><span class="link-dot" style="background:var(--amber)"></span>Preply — Online Tutoring<span class="link-arrow">↗</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <div class="footer-brand"><div class="brand-icon">AI</div><span style="font-family:'Syne',sans-serif;font-weight:800;">AI4<span style="color:var(--cyan)">EDU</span></span></div>
+          <p class="footer-desc">Curated by Dr. Alok Tiwari · GIM Goa</p>
+        </div>
+        <div class="footer-links">
+          <a href="learn.html">Learning Hub</a><a href="tools.html">AI Tools</a><a href="research.html">Research</a><a href="cheatsheets.html">Cheatsheets</a>
+        </div>
+        <div class="footer-copy">© <span id="year"></span> Dr. Alok Tiwari · AI4EDU</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/shared.js"></script>
+  <script>
+    document.querySelectorAll('.job-tab').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.job-tab').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.job-section').forEach(s => s.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>

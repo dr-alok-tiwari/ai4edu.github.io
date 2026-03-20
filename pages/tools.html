@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="AI4EDU — AI Tools for Scientific Research. Literature discovery, writing, GenAI, data analysis and more."/>
+  <title>AI Tools · AI4EDU</title>
+  <link rel="stylesheet" href="../assets/shared.css"/>
+  <style>
+    .tools-filter-bar {
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+      margin-bottom: 2rem;
+      align-items: center;
+    }
+    .filter-label {
+      font-family: 'Fira Code', monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-right: 0.3rem;
+    }
+    .filter-btn {
+      font-size: 0.78rem;
+      font-weight: 500;
+      padding: 0.38rem 0.85rem;
+      border-radius: 999px;
+      border: 1px solid var(--rim);
+      background: var(--surface);
+      color: var(--muted);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .filter-btn:hover { background: var(--surface-2); color: var(--text); }
+    .filter-btn.active { background: rgba(0,229,255,0.12); border-color: rgba(0,229,255,0.35); color: var(--cyan); }
+
+    .tools-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+    .tool-card {
+      background: var(--surface);
+      border: 1px solid var(--rim);
+      border-radius: var(--radius-md);
+      padding: 1.4rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      transition: transform 0.25s var(--ease), border-color 0.25s, box-shadow 0.25s;
+      position: relative;
+      overflow: hidden;
+    }
+    .tool-card::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(0,229,255,0.04), transparent);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .tool-card:hover { transform: translateY(-4px); border-color: rgba(0,229,255,0.2); box-shadow: 0 14px 36px rgba(0,0,0,0.3); }
+    .tool-card:hover::after { opacity: 1; }
+    .tool-card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 0.5rem; }
+    .tool-name { font-family: 'Syne', sans-serif; font-size: 0.95rem; font-weight: 700; color: var(--text); line-height: 1.3; }
+    .tool-cat { font-family: 'Fira Code', monospace; font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+    .tool-desc { font-size: 0.82rem; color: var(--muted); line-height: 1.6; flex: 1; }
+    .tool-price { font-size: 0.75rem; font-weight: 500; color: var(--emerald); }
+    .tool-link {
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: var(--cyan);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      margin-top: auto;
+      padding-top: 0.3rem;
+      transition: color 0.2s;
+    }
+    .tool-link:hover { color: var(--electric); }
+
+    .cat-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin: 2.5rem 0 1rem;
+    }
+    .cat-header-icon {
+      width: 40px; height: 40px;
+      border-radius: 12px;
+      display: grid; place-items: center;
+      font-size: 1.2rem;
+      background: rgba(0,229,255,0.1);
+      flex-shrink: 0;
+    }
+    .cat-header h3 {
+      font-family: 'Syne', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+    .cat-header-line { flex: 1; height: 1px; background: var(--rim); }
+  </style>
+</head>
+<body>
+
+  <nav class="site-nav">
+    <div class="container nav-inner">
+      <a href="../index.html" class="nav-brand">
+        <div class="brand-icon">AI</div>
+        <span class="brand-text">AI4<em>EDU</em></span>
+      </a>
+      <button class="nav-hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+      <div class="nav-links">
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="learn.html" class="nav-link">Learning Hub</a>
+        <a href="tools.html" class="nav-link">AI Tools</a>
+        <a href="jobs.html" class="nav-link">Job Portals</a>
+        <a href="research.html" class="nav-link">Research</a>
+        <a href="cheatsheets.html" class="nav-link">Cheatsheets</a>
+        <a href="https://dr-alok-tiwari.github.io" target="_blank" class="nav-link nav-cta">Portfolio →</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="page-hero-kicker reveal">60+ Curated Tools</span>
+      <h1 class="page-hero-title reveal d1"><span>AI Tools</span> for Research</h1>
+      <p class="page-hero-sub reveal d2">Literature discovery, writing assistance, GenAI chatbots, data analysis, citation managers — everything you need to supercharge your research workflow.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="tools-filter-bar reveal">
+        <span class="filter-label">Filter:</span>
+        <button class="filter-btn active" data-filter="all">All Tools</button>
+        <button class="filter-btn" data-filter="free"><span class="badge badge--free">Free</span></button>
+        <button class="filter-btn" data-filter="search">🔍 Search</button>
+        <button class="filter-btn" data-filter="write">✍️ Writing</button>
+        <button class="filter-btn" data-filter="genai">🤖 GenAI</button>
+        <button class="filter-btn" data-filter="visual">🎨 Visual</button>
+        <button class="filter-btn" data-filter="data">📊 Data</button>
+        <button class="filter-btn" data-filter="cite">🧾 Citation</button>
+      </div>
+
+      <!-- Literature Discovery -->
+      <div class="cat-header reveal">
+        <div class="cat-header-icon">🔍</div>
+        <h3>Literature Discovery & Search</h3>
+        <div class="cat-header-line"></div>
+      </div>
+      <div class="tools-grid">
+        <div class="tool-card reveal d1" data-cat="search free">
+          <div class="tool-card-top"><span class="tool-name">Semantic Scholar</span><span class="badge badge--free">Free</span></div>
+          <span class="tool-cat">AI-Powered Search</span>
+          <p class="tool-desc">AI-powered academic paper search engine with smart recommendations and citation graphs.</p>
+          <a href="https://www.semanticscholar.org" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d2" data-cat="search">
+          <div class="tool-card-top"><span class="tool-name">SciSpace</span><span class="badge badge--paid">$20/mo</span></div>
+          <span class="tool-cat">Research Assistant</span>
+          <p class="tool-desc">Read, understand, and chat with research papers. Free plan available.</p>
+          <a href="https://typeset.io" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d3" data-cat="search">
+          <div class="tool-card-top"><span class="tool-name">Consensus</span><span class="badge badge--paid">$12/mo</span></div>
+          <span class="tool-cat">Evidence Search</span>
+          <p class="tool-desc">Search scientific research and get evidence-based answers from papers.</p>
+          <a href="https://consensus.app" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d4" data-cat="search">
+          <div class="tool-card-top"><span class="tool-name">Scite</span><span class="badge badge--paid">$20/mo</span></div>
+          <span class="tool-cat">Citation Intelligence</span>
+          <p class="tool-desc">Smart citation analysis showing whether papers support or dispute each other.</p>
+          <a href="https://scite.ai" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d1" data-cat="search free">
+          <div class="tool-card-top"><span class="tool-name">Elicit</span><span class="badge badge--free">Free Beta</span></div>
+          <span class="tool-cat">Research Workflow</span>
+          <p class="tool-desc">AI research assistant for literature reviews, data extraction, and summarization.</p>
+          <a href="https://elicit.org" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d2" data-cat="search free">
+          <div class="tool-card-top"><span class="tool-name">Evidence Hunt</span><span class="badge badge--free">Free</span></div>
+          <span class="tool-cat">Clinical Research</span>
+          <p class="tool-desc">Search for clinical evidence from medical databases instantly.</p>
+          <a href="https://evidencehunt.com" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+      </div>
+
+      <!-- Literature Mapping -->
+      <div class="cat-header reveal">
+        <div class="cat-header-icon">🗺️</div>
+        <h3>Literature Mapping & Graph Visualization</h3>
+        <div class="cat-header-line"></div>
+      </div>
+      <div class="tools-grid">
+        <div class="tool-card reveal d1" data-cat="search free">
+          <div class="tool-card-top"><span class="tool-name">Research Rabbit</span><span class="badge badge--free">Free</span></div>
+          <span class="tool-cat">Visual Discovery</span>
+          <p class="tool-desc">Visualize academic papers and their relationships in an interactive graph.</p>
+          <a href="https://www.researchrabbit.ai" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d2" data-cat="search free">
+          <div class="tool-card-top"><span class="tool-name">Connected Papers</span><span class="badge badge--free">Free</span></div>
+          <span class="tool-cat">Graph-Based Search</span>
+          <p class="tool-desc">Build a visual graph of papers connected to your research topic.</p>
+          <a href="https://www.connectedpapers.com" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d3" data-cat="search free">
+          <div class="tool-card-top"><span class="tool-name">Litmaps</span><span class="badge badge--free">Free Plan</span></div>
+          <span class="tool-cat">Literature Mapping</span>
+          <p class="tool-desc">Dynamic literature maps that update as new papers are published.</p>
+          <a href="https://www.litmaps.com" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d4" data-cat="search free">
+          <div class="tool-card-top"><span class="tool-name">Inciteful</span><span class="badge badge--free">Free</span></div>
+          <span class="tool-cat">Citation Network</span>
+          <p class="tool-desc">Find the most important papers in a research area using citation network analysis.</p>
+          <a href="https://inciteful.xyz" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+      </div>
+
+      <!-- GenAI & Chat -->
+      <div class="cat-header reveal">
+        <div class="cat-header-icon">🤖</div>
+        <h3>Generative AI & Chat Assistants</h3>
+        <div class="cat-header-line"></div>
+      </div>
+      <div class="tools-grid">
+        <div class="tool-card reveal d1" data-cat="genai free">
+          <div class="tool-card-top"><span class="tool-name">ChatGPT</span><span class="badge badge--free">Free Plan</span></div>
+          <span class="tool-cat">OpenAI · LLM</span>
+          <p class="tool-desc">World's most popular AI assistant. GPT-3.5 free, GPT-4o available on paid plan.</p>
+          <a href="https://chat.openai.com" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d2" data-cat="genai free">
+          <div class="tool-card-top"><span class="tool-name">Claude (Anthropic)</span><span class="badge badge--free">Free Plan</span></div>
+          <span class="tool-cat">Anthropic · LLM</span>
+          <p class="tool-desc">Excellent for long documents, research analysis, coding, and nuanced reasoning.</p>
+          <a href="https://claude.ai" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d3" data-cat="genai free">
+          <div class="tool-card-top"><span class="tool-name">Google Gemini</span><span class="badge badge--free">Free</span></div>
+          <span class="tool-cat">Google · LLM</span>
+          <p class="tool-desc">Google's multimodal AI with deep Search and Workspace integration.</p>
+          <a href="https://gemini.google.com" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d4" data-cat="genai free">
+          <div class="tool-card-top"><span class="tool-name">Perplexity AI</span><span class="badge badge--free">Free Plan</span></div>
+          <span class="tool-cat">Search + AI</span>
+          <p class="tool-desc">AI answer engine that cites sources — great for research and fact-checking.</p>
+          <a href="https://www.perplexity.ai" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d1" data-cat="genai free">
+          <div class="tool-card-top"><span class="tool-name">Deepseek</span><span class="badge badge--free">Free</span></div>
+          <span class="tool-cat">Open-Weight LLM</span>
+          <p class="tool-desc">High-performance open-source LLM, excellent for coding and reasoning tasks.</p>
+          <a href="https://deepseek.com" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d2" data-cat="genai free">
+          <div class="tool-card-top"><span class="tool-name">Microsoft Copilot</span><span class="badge badge--free">Free</span></div>
+          <span class="tool-cat">Microsoft · LLM</span>
+          <p class="tool-desc">GPT-4 powered AI integrated across Microsoft 365 and the web.</p>
+          <a href="https://copilot.microsoft.com" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+      </div>
+
+      <!-- Writing & Editing -->
+      <div class="cat-header reveal">
+        <div class="cat-header-icon">✍️</div>
+        <h3>Academic Writing & Editing</h3>
+        <div class="cat-header-line"></div>
+      </div>
+      <div class="tools-grid">
+        <div class="tool-card reveal d1" data-cat="write free">
+          <div class="tool-card-top"><span class="tool-name">Paperpal</span><span class="badge badge--free">Free Plan</span></div>
+          <span class="tool-cat">Academic Writing AI</span>
+          <p class="tool-desc">AI writing assistant built specifically for academic manuscripts and journals.</p>
+          <a href="https://www.paperpal.com" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d2" data-cat="write">
+          <div class="tool-card-top"><span class="tool-name">Jenni AI</span><span class="badge badge--paid">Free Trial</span></div>
+          <span class="tool-cat">Academic Writing</span>
+          <p class="tool-desc">AI writing assistant for academic papers with in-text citations and autocomplete.</p>
+          <a href="https://www.jenni.ai" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d3" data-cat="write free">
+          <div class="tool-card-top"><span class="tool-name">Hemingway Editor</span><span class="badge badge--free">Free Online</span></div>
+          <span class="tool-cat">Readability</span>
+          <p class="tool-desc">Highlights complex sentences and suggests simpler alternatives for clarity.</p>
+          <a href="https://hemingwayapp.com" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d4" data-cat="write free">
+          <div class="tool-card-top"><span class="tool-name">ProWritingAid</span><span class="badge badge--free">Free Plan</span></div>
+          <span class="tool-cat">Grammar & Style</span>
+          <p class="tool-desc">In-depth writing analysis, grammar checking, and style improvement suggestions.</p>
+          <a href="https://prowritingaid.com" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+      </div>
+
+      <!-- Data Analysis -->
+      <div class="cat-header reveal">
+        <div class="cat-header-icon">📊</div>
+        <h3>Data Analysis & Visualization</h3>
+        <div class="cat-header-line"></div>
+      </div>
+      <div class="tools-grid">
+        <div class="tool-card reveal d1" data-cat="data free">
+          <div class="tool-card-top"><span class="tool-name">Julius AI</span><span class="badge badge--free">Free Plan</span></div>
+          <span class="tool-cat">Data Analysis AI</span>
+          <p class="tool-desc">Chat with your data — upload CSVs and get instant analysis, charts, and insights.</p>
+          <a href="https://www.julius.ai" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d2" data-cat="data free">
+          <div class="tool-card-top"><span class="tool-name">ChatCSV</span><span class="badge badge--free">Free</span></div>
+          <span class="tool-cat">CSV Analysis</span>
+          <p class="tool-desc">Upload a CSV and ask questions in plain English — instant data exploration.</p>
+          <a href="https://www.chatcsv.co" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d3" data-cat="data free">
+          <div class="tool-card-top"><span class="tool-name">Notion AI</span><span class="badge badge--free">Free Trial</span></div>
+          <span class="tool-cat">Productivity + AI</span>
+          <p class="tool-desc">AI writing, summarizing, and database management inside Notion workspaces.</p>
+          <a href="https://www.notion.so/product/ai" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+      </div>
+
+      <!-- Citation Managers -->
+      <div class="cat-header reveal">
+        <div class="cat-header-icon">🧾</div>
+        <h3>Reference & Citation Managers</h3>
+        <div class="cat-header-line"></div>
+      </div>
+      <div class="tools-grid">
+        <div class="tool-card reveal d1" data-cat="cite free">
+          <div class="tool-card-top"><span class="tool-name">Zotero</span><span class="badge badge--free">Free · Open Source</span></div>
+          <span class="tool-cat">Reference Manager</span>
+          <p class="tool-desc">The gold standard free reference manager — collect, organize, cite, and share research.</p>
+          <a href="https://www.zotero.org" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d2" data-cat="cite free">
+          <div class="tool-card-top"><span class="tool-name">Mendeley</span><span class="badge badge--free">Free</span></div>
+          <span class="tool-cat">Reference Manager</span>
+          <p class="tool-desc">Academic social network + reference manager by Elsevier with PDF annotation.</p>
+          <a href="https://www.mendeley.com" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d3" data-cat="cite free">
+          <div class="tool-card-top"><span class="tool-name">Overleaf</span><span class="badge badge--free">Free Plan</span></div>
+          <span class="tool-cat">LaTeX Editor</span>
+          <p class="tool-desc">Online collaborative LaTeX editor — essential for academic paper writing.</p>
+          <a href="https://www.overleaf.com" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d4" data-cat="cite">
+          <div class="tool-card-top"><span class="tool-name">Paperpile</span><span class="badge badge--paid">Free Trial</span></div>
+          <span class="tool-cat">Reference Manager</span>
+          <p class="tool-desc">Reference manager designed for Google Docs — seamless academic workflow.</p>
+          <a href="https://paperpile.com" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+      </div>
+
+      <!-- Visual Tools -->
+      <div class="cat-header reveal">
+        <div class="cat-header-icon">🎨</div>
+        <h3>Visual, Presentation & Media Tools</h3>
+        <div class="cat-header-line"></div>
+      </div>
+      <div class="tools-grid">
+        <div class="tool-card reveal d1" data-cat="visual free">
+          <div class="tool-card-top"><span class="tool-name">Canva</span><span class="badge badge--free">Free Plan</span></div>
+          <span class="tool-cat">Design & Infographics</span>
+          <p class="tool-desc">Create research posters, infographics, and presentations with drag-and-drop ease.</p>
+          <a href="https://www.canva.com" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d2" data-cat="visual free">
+          <div class="tool-card-top"><span class="tool-name">Gamma</span><span class="badge badge--free">Free Plan</span></div>
+          <span class="tool-cat">AI Presentations</span>
+          <p class="tool-desc">Generate beautiful slide decks and presentations from a prompt or document.</p>
+          <a href="https://gamma.app" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d3" data-cat="visual free">
+          <div class="tool-card-top"><span class="tool-name">Microsoft Designer</span><span class="badge badge--free">Free</span></div>
+          <span class="tool-cat">AI Design</span>
+          <p class="tool-desc">Create graphics and presentations powered by DALL·E with Microsoft integration.</p>
+          <a href="https://designer.microsoft.com" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+        <div class="tool-card reveal d4" data-cat="visual free">
+          <div class="tool-card-top"><span class="tool-name">Ideogram</span><span class="badge badge--free">Free</span></div>
+          <span class="tool-cat">Text-to-Image AI</span>
+          <p class="tool-desc">Generate images with accurate text rendering — great for research figure mockups.</p>
+          <a href="https://ideogram.ai" target="_blank" class="tool-link">Visit ↗</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <div class="footer-brand">
+            <div class="brand-icon">AI</div>
+            <span style="font-family:'Syne',sans-serif;font-weight:800;">AI4<span style="color:var(--cyan)">EDU</span></span>
+          </div>
+          <p class="footer-desc">Curated by Dr. Alok Tiwari · GIM Goa</p>
+        </div>
+        <div class="footer-links">
+          <a href="learn.html">Learning Hub</a>
+          <a href="tools.html">AI Tools</a>
+          <a href="jobs.html">Job Portals</a>
+          <a href="research.html">Research</a>
+        </div>
+        <div class="footer-copy">© <span id="year"></span> Dr. Alok Tiwari · AI4EDU</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/shared.js"></script>
+  <script>
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+        document.querySelectorAll('.tool-card').forEach(card => {
+          const cats = card.dataset.cat || '';
+          card.style.display = (filter === 'all' || cats.includes(filter)) ? '' : 'none';
+        });
+      });
+    });
+  </script>
+</body>
+</html>
